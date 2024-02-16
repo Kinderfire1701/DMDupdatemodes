@@ -6,7 +6,16 @@ class DLPController:
     """
     Class for controlling a DLP (Digital Light Processing) device.
 
-    This class provides methods to interact with a DLP device using a provided DLL.
+    Attributes:
+        _dll (ctypes.WinDLL): Represents the DLL for interfacing with the DLP device.
+        _dll.SetSWOverrideValue.argtypes (list):
+            List of ctypes data types for the arguments of SetSWOverrideValue function.
+        _dll.SetSWOverrideValue.restype (ctypes data type):
+            Data type of the return value of SetSWOverrideValue function.
+        _dll.SetSWOverrideEnable.argtypes (list):
+            List of ctypes data types for the arguments of SetSWOverrideEnable function.
+        _dll.SetSWOverrideEnable.restype (ctypes data type):
+            Data type of the return value of SetSWOverrideEnable function.
     """
 
     def __init__(self, dll_path='D4100_usb.dll'):
