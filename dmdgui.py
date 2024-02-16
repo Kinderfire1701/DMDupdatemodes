@@ -1,9 +1,14 @@
+"""Import Pyside, logging, sys, as well as dlpcontroller and cusotmexceptions"""
 import sys
+import logging
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QFrame, QMessageBox
 from PySide6.QtGui import QPixmap
 from dlpcontroller import DLPController
 from customexceptions import EnableSWOverrideError, SetSWOverrideValueError
+
+logging.basicConfig(filename='DMDGui.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class MainWindow(QWidget):
     """
@@ -27,6 +32,8 @@ class MainWindow(QWidget):
         """
         super().__init__()
 
+        logger.debug("Initializing the main window.")
+
         self.InitUI()
         self.loadImage('Global')
         self._curr_mode = "Global"
@@ -35,10 +42,13 @@ class MainWindow(QWidget):
             self._controller = DLPController()
             self._controller.enable_updates()
             #self._controller.set_global()
+            logger.debug("Updates enabled successfully.")
         except EnableSWOverrideError as exception:
+            logger.error(f"Error enabling updates: {exception}")
             self.showErrorMessageBox(str(exception))
             sys.exit(1)
         except FileNotFoundError as exception:
+            logger.error(f"File not found: {exception}")
             msg = """.dll file for API not found.
             Launching anyway, but DMD update mode cannot be changed!"""
             self.showErrorMessageBox(msg)
@@ -122,17 +132,24 @@ class MainWindow(QWidget):
         Handles button click events.
         """
         sender = self.sender()
+        logger.debug(f"Button clicked: {sender.text()}")
+
         if self._curr_mode != sender.text() and self._controller is not None:
             try:
                 if sender.text() == 'Global':
                     self._controller.set_global()
+                    logger.debug("Setting update mode to Global")
                 elif sender.text() == 'Single':
                     self._controller.set_single()
+                    logger.debug("Setting update mode to Single")
                 elif sender.text() == 'Dual':
                     self._controller.set_dual()
+                    logger.debug("Setting update mode to Dual")
                 elif sender.text() == 'Quad':
                     self._controller.set_quad()
+                    logger.debug("Setting update mode to Quad")
             except SetSWOverrideValueError as exception:
+                logger.error(f"Error setting update mode: {exception}")
                 self.showErrorMessageBox(str(exception))
         self._curr_mode = sender.text()
         self.label.setText(f'Current Update Mode: {self._curr_mode}')

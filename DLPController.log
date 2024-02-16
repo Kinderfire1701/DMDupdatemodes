@@ -1,0 +1,7 @@
+2024-02-16 12:59:21,693 - DEBUG - Initializing the main window.
+2024-02-16 12:59:21,697 - DEBUG - Attempting to setup API for use
+2024-02-16 12:59:21,697 - ERROR - File not found: Could not find module 'D4100_usb.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-02-16 12:59:25,201 - DEBUG - Button clicked: Quad
+2024-02-16 12:59:25,593 - DEBUG - Button clicked: Dual
+2024-02-16 12:59:26,024 - DEBUG - Button clicked: Single
+2024-02-16 12:59:26,775 - DEBUG - Button clicked: Global
