@@ -1,6 +1,9 @@
-"""Imports from Ctypes packag and customexceptions"""
+"""Imports from Ctypes package and customexceptions"""
 import ctypes
+import logging
 from customexceptions import SetSWOverrideValueError, EnableSWOverrideError
+
+logging.basicConfig(filename='DMDGui.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class DLPController:
     """
@@ -28,11 +31,13 @@ class DLPController:
             Defauls to 'D4100_usb.dll'
         """
         #initializing some stuff for the API
+        logging.debug("Attempting to setup API for use")
         self._dll = ctypes.WinDLL(dll_path)
         self._dll.SetSWOverrideValue.argtypes = [ctypes.c_short]
         self._dll.SetSWOverrideValue.restype = ctypes.c_short
         self._dll.SetSWOverrideEnable.argtypes = [ctypes.c_short]
         self._dll.SetSWOverrideEnable.restype = ctypes.c_short
+        logging.debug("Finished setting up for API use")
 
     def _set_sw_override_value(self, value):
         """
@@ -47,7 +52,12 @@ class DLPController:
         """
         result = self._dll.SetSWOverrideValue(value)
         if result != 1:
-            raise SetSWOverrideValueError(value)
+            exception = SetSWOverrideValueError(value)
+            logging.error(f"Error enabling updates: {str(exception)}")
+            raise exception
+    
+        logging.debug(f'Software override value set to {value}')
+
 
     def _set_sw_override_enable(self, value):
         """
@@ -62,7 +72,11 @@ class DLPController:
         """
         result = self._dll.SetSWOverrideEnable(value)
         if result != 1:
-            raise EnableSWOverrideError(value)
+            exception = EnableSWOverrideError(value)
+            logging.error(f"Error setting software override: {str(exception)}")
+            raise exception
+        logging.debug(f'Software override enabled: {value}')
+
 
     def enable_updates(self):
         """Enable updates for the DLP device. Class _set_sw_override_enable"""
