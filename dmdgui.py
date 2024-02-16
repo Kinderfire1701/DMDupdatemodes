@@ -6,31 +6,58 @@ from dlpcontroller import DLPController
 from customexceptions import EnableSWOverrideError, SetSWOverrideValueError
 
 class MainWindow(QWidget):
+    """
+    Main window class for the DMD Update Mode GUI.
+
+    Attributes:
+        _curr_mode (str): The current update mode.
+        _controller (DLPController): The DLP controller instance.
+        button1 (QPushButton): Button for 'Global' update mode.
+        button2 (QPushButton): Button for 'Single' update mode.
+        button3 (QPushButton): Button for 'Dual' update mode.
+        button4 (QPushButton): Button for 'Quad' update mode.
+        label (QLabel): Label to display the current update mode.
+        image_frame (QFrame): Frame to contain the image area.
+        image_label (QLabel): Label to display the image.
+    """
     def __init__(self):
+        """
+        Initializes the main window. Enables updates on the DLP controller and sets the
+        Current update mode to global. Conditional error handling depending.
+        """
         super().__init__()
 
-        self.initUI()
+        self.InitUI()
         self.loadImage('Global')
         self._curr_mode = "Global"
         self.label.setText(f'Current Update Mode: {self._curr_mode}')
         try:
             self._controller = DLPController()
             self._controller.enable_updates()
-        except EnableSWOverrideError as e:
-            self.showErrorMessageBox(str(e))
+            #self._controller.set_global()
+        except EnableSWOverrideError as exception:
+            self.showErrorMessageBox(str(exception))
             sys.exit(1)
-        except FileNotFoundError as e:
-            self.showErrorMessageBox(".dll file for API not found. Launching anyway, but DMD update mode cannot be changed!")
+        except FileNotFoundError as exception:
+            msg = """.dll file for API not found.
+            Launching anyway, but DMD update mode cannot be changed!"""
+            self.showErrorMessageBox(msg)
             self._controller = None
 
     def __del__(self):
+        """
+        Disables updates when the window is deleted.
+        """
         try:
             self._controller.disable_updates()
-        except EnableSWOverrideError as e:
-            self.showErrorMessageBox(str(e))
+        except EnableSWOverrideError as exception:
+            self.showErrorMessageBox(str(exception))
             sys.exit(1)
 
-    def initUI(self):
+    def InitUI(self):
+        """
+        Initializes the user interface.
+        """
         self.setWindowTitle("DMD Update Mode GUI")
         self.setGeometry(100, 100, 500, 300)
 
@@ -91,8 +118,11 @@ class MainWindow(QWidget):
         self.button4.clicked.connect(self.buttonClicked)
 
     def buttonClicked(self):
+        """
+        Handles button click events.
+        """
         sender = self.sender()
-        if self._curr_mode != sender.text() and self._controller != None:
+        if self._curr_mode != sender.text() and self._controller is not None:
             try:
                 if sender.text() == 'Global':
                     self._controller.set_global()
@@ -102,13 +132,19 @@ class MainWindow(QWidget):
                     self._controller.set_dual()
                 elif sender.text() == 'Quad':
                     self._controller.set_quad()
-            except SetSWOverrideValueError as e:
-                self.showErrorMessageBox(str(e))
+            except SetSWOverrideValueError as exception:
+                self.showErrorMessageBox(str(exception))
         self._curr_mode = sender.text()
         self.label.setText(f'Current Update Mode: {self._curr_mode}')
         self.loadImage(sender.text())
 
     def loadImage(self, button_text):
+        """
+        Loads and displays the image based on the selected mode.
+
+        Args:
+            button_text (str): The text of the image to display
+        """
         image_path = None
         if button_text == 'Global':
             image_path = 'Global.jpg'
@@ -125,6 +161,12 @@ class MainWindow(QWidget):
             self.image_label.setScaledContents(True)
 
     def showErrorMessageBox(self, message):
+        """
+        Shows an error message box with the given message.
+
+        Args:
+            message (str): The error message to display.
+        """
         error_box = QMessageBox()
         error_box.setWindowTitle("Error")
         error_box.setIcon(QMessageBox.Critical)
