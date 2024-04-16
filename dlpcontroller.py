@@ -107,3 +107,7 @@ class DLPController:
         """Set the DMD to global update mode."""
         binary_input_value = 0x20 # 0010 0000
         self._set_sw_override_value(binary_input_value)
+
+test = DLPController()
+test.enable_updates()
+print("initialized the controller")
