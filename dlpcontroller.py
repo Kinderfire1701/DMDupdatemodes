@@ -21,7 +21,7 @@ class DLPController:
             Data type of the return value of SetSWOverrideEnable function.
     """
 
-    def __init__(self, dll_path='D4100_usb.dll'):
+    def __init__(self, dll_path='C:\Windows\SysWOW64\D4100_usb.dll'):
         """
         Initialize the DLPController object.
         Uses the ctypes package to setup interactions with the API
