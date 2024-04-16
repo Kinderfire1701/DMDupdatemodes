@@ -1,29 +1,22 @@
-"""Import Pyside, logging, sys, as well as dlpcontroller and cusotmexceptions"""
-import sys
-import logging
-from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QFrame, QMessageBox
-from PySide6.QtGui import QPixmap
+import tkinter as tk
+from tkinter import messagebox
+from PIL import Image, ImageTk
 from dlpcontroller import DLPController
 from customexceptions import EnableSWOverrideError, SetSWOverrideValueError
+import logging
+import sys
 
 logging.basicConfig(filename='DMDGui.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class MainWindow(QWidget):
+class MainWindow(tk.Tk):
     """
     Main window class for the DMD Update Mode GUI.
 
     Attributes:
         _curr_mode (str): The current update mode.
         _controller (DLPController): The DLP controller instance.
-        button1 (QPushButton): Button for 'Global' update mode.
-        button2 (QPushButton): Button for 'Single' update mode.
-        button3 (QPushButton): Button for 'Dual' update mode.
-        button4 (QPushButton): Button for 'Quad' update mode.
-        label (QLabel): Label to display the current update mode.
-        image_frame (QFrame): Frame to contain the image area.
-        image_label (QLabel): Label to display the image.
+        image_label (tk.Label): Label to display the image.
     """
     def __init__(self):
         """
@@ -34,25 +27,25 @@ class MainWindow(QWidget):
 
         logger.debug("Initializing the main window.")
 
-        self.InitUI()
-        self.loadImage('Global')
-        self._curr_mode = "Global"
-        self.label.setText(f'Current Update Mode: {self._curr_mode}')
+        self._curr_mode = None
+        self._controller = None
+
+        self.init_ui()
+        self.load_image('Global')
+
         try:
             self._controller = DLPController()
             self._controller.enable_updates()
-            #self._controller.set_global()
             logger.debug("Updates enabled successfully.")
         except EnableSWOverrideError as exception:
             logger.error(f"Error enabling updates: {exception}")
-            self.showErrorMessageBox(str(exception))
+            self.show_error_message_box(str(exception))
             sys.exit(1)
         except FileNotFoundError as exception:
             logger.error(f"File not found: {exception}")
             msg = """.dll file for API not found.
             Launching anyway, but DMD update mode cannot be changed!"""
-            self.showErrorMessageBox(msg)
-            self._controller = None
+            self.show_error_message_box(msg)
 
     def __del__(self):
         """
@@ -61,137 +54,102 @@ class MainWindow(QWidget):
         try:
             self._controller.disable_updates()
         except EnableSWOverrideError as exception:
-            self.showErrorMessageBox(str(exception))
+            self.show_error_message_box(str(exception))
             sys.exit(1)
 
-    def InitUI(self):
+    def init_ui(self):
         """
         Initializes the user interface.
         """
-        self.setWindowTitle("DMD Update Mode GUI")
-        self.setGeometry(100, 100, 500, 300)
+        self.title("DMD Update Mode GUI")
+        self.geometry("500x300")
 
-        # Create main layout
-        main_layout = QHBoxLayout()
+        # Create main frame
+        main_frame = tk.Frame(self)
+        main_frame.pack(fill=tk.BOTH, expand=True)
 
-        # Create button layout
-        button_layout = QVBoxLayout()
+        # Create button frame
+        button_frame = tk.Frame(main_frame)
+        button_frame.pack(side=tk.LEFT, padx=10)
 
         # Create buttons
-        self.button1 = QPushButton('Global', self)
-        self.button2 = QPushButton('Single', self)
-        self.button3 = QPushButton('Dual', self)
-        self.button4 = QPushButton('Quad', self)
+        button_texts = ['Global', 'Single', 'Dual', 'Quad']
+        for text in button_texts:
+            button = tk.Button(button_frame, text=text, command=lambda t=text: self.button_clicked(t))
+            button.pack(side=tk.TOP, pady=5)
 
-        # Add buttons to button layout
-        button_layout.addWidget(self.button1)
-        button_layout.addWidget(self.button2)
-        button_layout.addWidget(self.button3)
-        button_layout.addWidget(self.button4)
-
-        # Create layout for label and image
-        label_image_layout = QVBoxLayout()
+        # Create label frame
+        label_frame = tk.Frame(main_frame)
+        label_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
         # Create label for the most recently clicked button
-        self.label = QLabel('Current Update Mode: None', self)
-        label_image_layout.addWidget(self.label)
+        self.label = tk.Label(label_frame, text='Current Update Mode: None')
+        self.label.pack(side=tk.TOP, pady=10)
 
         # Create a frame for the image area
-        self.image_frame = QFrame(self)
-        self.image_frame.setFrameShape(QFrame.StyledPanel)
+        self.image_frame = tk.Frame(label_frame, relief=tk.SUNKEN, borderwidth=2)
+        self.image_frame.pack(fill=tk.BOTH, expand=True)
 
-        # Create layout for image area
-        image_layout = QVBoxLayout()
-        self.image_label = QLabel("Image Area")
-        self.image_label.setAlignment(Qt.AlignCenter)  # Align image_label in the center
-        image_layout.addWidget(self.image_label)
+        # Create label for image
+        self.image_label = tk.Label(self.image_frame, text="Image Area")
+        self.image_label.pack(fill=tk.BOTH, expand=True)
 
-        # Set the layout for the image frame
-        self.image_frame.setLayout(image_layout)
-        label_image_layout.addWidget(self.image_frame)
-
-        # Add button layout and label/image layout to main layout
-        main_layout.addLayout(button_layout)
-        main_layout.addLayout(label_image_layout)
-
-        # Set stretch factors
-        label_image_layout.setStretch(0, 1)  # Label takes up 1 part
-        label_image_layout.setStretch(1, 4)  # Image area takes up 4 parts
-
-        # Add main layout to window
-        self.setLayout(main_layout)
-
-        # Connect buttons to a slot
-        self.button1.clicked.connect(self.buttonClicked)
-        self.button2.clicked.connect(self.buttonClicked)
-        self.button3.clicked.connect(self.buttonClicked)
-        self.button4.clicked.connect(self.buttonClicked)
-
-    def buttonClicked(self):
+    def button_clicked(self, button_text):
         """
         Handles button click events.
-        """
-        sender = self.sender()
-        logger.debug(f"Button clicked: {sender.text()}")
 
-        if self._curr_mode != sender.text() and self._controller is not None:
+        Args:
+            button_text (str): The text of the clicked button.
+        """
+        logger.debug(f"Button clicked: {button_text}")
+
+        if self._curr_mode != button_text and self._controller is not None:
             try:
-                if sender.text() == 'Global':
+                if button_text == 'Global':
                     self._controller.set_global()
                     logger.debug("Setting update mode to Global")
-                elif sender.text() == 'Single':
+                elif button_text == 'Single':
                     self._controller.set_single()
                     logger.debug("Setting update mode to Single")
-                elif sender.text() == 'Dual':
+                elif button_text == 'Dual':
                     self._controller.set_dual()
                     logger.debug("Setting update mode to Dual")
-                elif sender.text() == 'Quad':
+                elif button_text == 'Quad':
                     self._controller.set_quad()
                     logger.debug("Setting update mode to Quad")
             except SetSWOverrideValueError as exception:
                 logger.error(f"Error setting update mode: {exception}")
-                self.showErrorMessageBox(str(exception))
-        self._curr_mode = sender.text()
-        self.label.setText(f'Current Update Mode: {self._curr_mode}')
-        self.loadImage(sender.text())
+                self.show_error_message_box(str(exception))
+        self._curr_mode = button_text
+        self.label.config(text=f'Current Update Mode: {self._curr_mode}')
+        self.load_image(button_text)
 
-    def loadImage(self, button_text):
+    def load_image(self, button_text):
         """
         Loads and displays the image based on the selected mode.
 
         Args:
-            button_text (str): The text of the image to display
+            button_text (str): The text of the image to display.
         """
-        image_path = None
-        if button_text == 'Global':
-            image_path = 'Global.jpg'
-        elif button_text == 'Single':
-            image_path = 'Single.jpg'
-        elif button_text == 'Dual':
-            image_path = 'Dual.jpg'
-        elif button_text == 'Quad':
-            image_path = 'Quad.jpg'
+        image_path = f"{button_text}.jpg"
+        try:
+            image = Image.open(image_path)
+            photo = ImageTk.PhotoImage(image)
+            self.image_label.config(image=photo)
+            self.image_label.image = photo  # Keep a reference to prevent garbage collection
+        except FileNotFoundError:
+            logger.error(f"Image file not found: {image_path}")
+            self.show_error_message_box(f"Image file not found: {image_path}")
 
-        if image_path:
-            pixmap = QPixmap(image_path)
-            self.image_label.setPixmap(pixmap)
-            self.image_label.setScaledContents(True)
-
-    def showErrorMessageBox(self, message):
+    def show_error_message_box(self, message):
         """
         Shows an error message box with the given message.
 
         Args:
             message (str): The error message to display.
         """
-        error_box = QMessageBox()
-        error_box.setWindowTitle("Error")
-        error_box.setIcon(QMessageBox.Critical)
-        error_box.setText(message)
-        error_box.exec()
+        messagebox.showerror("Error", message)
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec())
+    app = MainWindow()
+    app.mainloop()
