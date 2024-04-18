@@ -1,0 +1,874 @@
+2024-04-16 10:55:38,267 - DEBUG - Attempting to setup API for use
+2024-04-16 10:55:38,269 - DEBUG - Finished setting up for API use
+2024-04-16 10:55:38,271 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:13:19,949 - DEBUG - Initializing the main window.
+2024-04-17 15:13:20,019 - DEBUG - Attempting to setup API for use
+2024-04-17 15:13:20,020 - DEBUG - Finished setting up for API use
+2024-04-17 15:13:20,022 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:13:20,023 - ERROR - Error enabling updates: Failed to Enable Software Override
+2024-04-17 15:35:32,564 - DEBUG - Initializing the main window.
+2024-04-17 15:35:32,649 - DEBUG - Attempting to setup API for use
+2024-04-17 15:35:32,651 - DEBUG - Finished setting up for API use
+2024-04-17 15:35:32,654 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:35:32,654 - ERROR - Error enabling updates: Failed to Enable Software Override
+2024-04-17 15:40:06,055 - DEBUG - Initializing the main window.
+2024-04-17 15:40:06,093 - DEBUG - Attempting to setup API for use
+2024-04-17 15:40:06,095 - DEBUG - Finished setting up for API use
+2024-04-17 15:40:06,099 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:40:06,099 - ERROR - Error enabling updates: Failed to Enable Software Override
+2024-04-17 15:40:31,438 - DEBUG - Initializing the main window.
+2024-04-17 15:40:31,474 - DEBUG - Attempting to setup API for use
+2024-04-17 15:40:31,476 - DEBUG - Finished setting up for API use
+2024-04-17 15:40:31,479 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:40:31,479 - ERROR - Error enabling updates: Failed to Enable Software Override
+2024-04-17 15:42:42,227 - DEBUG - Attempting to setup API for use
+2024-04-17 15:42:42,228 - DEBUG - Finished setting up for API use
+2024-04-17 15:42:42,232 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:43:33,168 - DEBUG - Attempting to setup API for use
+2024-04-17 15:43:33,170 - DEBUG - Finished setting up for API use
+2024-04-17 15:43:33,174 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 15:45:22,638 - DEBUG - Initializing the main window.
+2024-04-17 15:45:22,676 - DEBUG - Attempting to setup API for use
+2024-04-17 15:45:22,678 - DEBUG - Finished setting up for API use
+2024-04-17 15:45:22,681 - DEBUG - Software override enabled: 1
+2024-04-17 15:45:22,681 - DEBUG - Updates enabled successfully.
+2024-04-17 15:45:26,753 - DEBUG - Button clicked: Global
+2024-04-17 15:45:26,755 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 15:45:35,536 - DEBUG - Software override enabled: 0
+2024-04-17 15:46:01,581 - DEBUG - Initializing the main window.
+2024-04-17 15:46:01,618 - DEBUG - Attempting to setup API for use
+2024-04-17 15:46:01,620 - DEBUG - Finished setting up for API use
+2024-04-17 15:46:01,624 - DEBUG - Software override enabled: 1
+2024-04-17 15:46:01,624 - DEBUG - Updates enabled successfully.
+2024-04-17 15:46:03,944 - DEBUG - Button clicked: Global
+2024-04-17 15:46:03,946 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 15:46:03,946 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 15:46:08,504 - DEBUG - Button clicked: Single
+2024-04-17 15:46:08,507 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 15:46:08,507 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 15:46:11,030 - DEBUG - Software override enabled: 0
+2024-04-17 15:46:39,531 - DEBUG - Initializing the main window.
+2024-04-17 15:46:39,568 - DEBUG - Attempting to setup API for use
+2024-04-17 15:46:39,569 - DEBUG - Finished setting up for API use
+2024-04-17 15:46:39,573 - DEBUG - Software override enabled: 1
+2024-04-17 15:46:39,574 - DEBUG - Updates enabled successfully.
+2024-04-17 15:52:50,153 - DEBUG - Software override enabled: 0
+2024-04-17 15:52:52,863 - DEBUG - Initializing the main window.
+2024-04-17 15:52:52,897 - DEBUG - Attempting to setup API for use
+2024-04-17 15:52:52,899 - DEBUG - Finished setting up for API use
+2024-04-17 15:53:09,611 - DEBUG - Initializing the main window.
+2024-04-17 15:53:09,646 - DEBUG - Attempting to setup API for use
+2024-04-17 15:53:09,648 - DEBUG - Finished setting up for API use
+2024-04-17 15:53:09,658 - DEBUG - Software override enabled: 1
+2024-04-17 15:53:09,658 - DEBUG - Updates enabled successfully.
+2024-04-17 15:53:23,640 - DEBUG - Button clicked: Global
+2024-04-17 15:53:23,643 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 15:53:23,643 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 15:54:50,120 - DEBUG - Button clicked: Single
+2024-04-17 15:54:50,123 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 15:54:50,123 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 15:54:52,305 - DEBUG - Button clicked: Dual
+2024-04-17 15:54:52,308 - ERROR - Error enabling updates: Failed to set SW override value: 0x10
+2024-04-17 15:54:52,308 - ERROR - Error setting update mode: Failed to set SW override value: 0x10
+2024-04-17 15:55:15,582 - DEBUG - Software override enabled: 0
+2024-04-17 15:55:17,869 - DEBUG - Initializing the main window.
+2024-04-17 15:55:17,904 - DEBUG - Attempting to setup API for use
+2024-04-17 15:55:17,906 - DEBUG - Finished setting up for API use
+2024-04-17 15:55:17,913 - DEBUG - Software override enabled: 1
+2024-04-17 15:55:17,913 - DEBUG - Updates enabled successfully.
+2024-04-17 15:55:22,312 - DEBUG - Button clicked: Single
+2024-04-17 15:55:30,121 - DEBUG - Software override enabled: 0
+2024-04-17 15:55:31,582 - DEBUG - Initializing the main window.
+2024-04-17 15:55:31,616 - DEBUG - Attempting to setup API for use
+2024-04-17 15:55:31,618 - DEBUG - Finished setting up for API use
+2024-04-17 15:55:31,624 - DEBUG - Software override enabled: 1
+2024-04-17 15:55:31,625 - DEBUG - Updates enabled successfully.
+2024-04-17 15:55:33,481 - DEBUG - Button clicked: Single
+2024-04-17 15:55:33,484 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 15:55:33,484 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 15:55:40,408 - DEBUG - Software override enabled: 0
+2024-04-17 15:59:32,257 - DEBUG - Initializing the main window.
+2024-04-17 15:59:32,295 - DEBUG - Attempting to setup API for use
+2024-04-17 15:59:32,296 - DEBUG - Finished setting up for API use
+2024-04-17 16:00:03,985 - DEBUG - Initializing the main window.
+2024-04-17 16:00:04,023 - DEBUG - Attempting to setup API for use
+2024-04-17 16:00:04,024 - DEBUG - Finished setting up for API use
+2024-04-17 16:00:04,034 - DEBUG - Software override enabled: 1
+2024-04-17 16:00:04,034 - DEBUG - Updates enabled successfully.
+2024-04-17 16:00:20,433 - DEBUG - Button clicked: Global
+2024-04-17 16:00:20,440 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 16:00:20,440 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 16:00:26,213 - DEBUG - Software override enabled: 0
+2024-04-17 16:01:04,636 - DEBUG - Initializing the main window.
+2024-04-17 16:01:04,678 - DEBUG - Attempting to setup API for use
+2024-04-17 16:01:04,679 - DEBUG - Finished setting up for API use
+2024-04-17 16:01:04,696 - DEBUG - Software override enabled: 1
+2024-04-17 16:01:04,696 - DEBUG - Updates enabled successfully.
+2024-04-17 16:01:25,753 - DEBUG - Button clicked: Single
+2024-04-17 16:01:25,764 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:01:25,764 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:01:36,329 - DEBUG - Button clicked: Global
+2024-04-17 16:01:36,339 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 16:01:36,340 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 16:01:39,889 - DEBUG - Button clicked: Dual
+2024-04-17 16:01:39,899 - ERROR - Error enabling updates: Failed to set SW override value: 0x10
+2024-04-17 16:01:39,900 - ERROR - Error setting update mode: Failed to set SW override value: 0x10
+2024-04-17 16:01:59,963 - DEBUG - Software override enabled: 0
+2024-04-17 16:02:04,668 - DEBUG - Initializing the main window.
+2024-04-17 16:02:04,703 - DEBUG - Attempting to setup API for use
+2024-04-17 16:02:04,705 - DEBUG - Finished setting up for API use
+2024-04-17 16:02:04,715 - DEBUG - Software override enabled: 1
+2024-04-17 16:02:04,715 - DEBUG - Updates enabled successfully.
+2024-04-17 16:02:09,738 - DEBUG - Software override enabled: 0
+2024-04-17 16:02:13,221 - DEBUG - Initializing the main window.
+2024-04-17 16:02:13,254 - DEBUG - Attempting to setup API for use
+2024-04-17 16:02:13,255 - DEBUG - Finished setting up for API use
+2024-04-17 16:02:13,265 - DEBUG - Software override enabled: 1
+2024-04-17 16:02:13,265 - DEBUG - Updates enabled successfully.
+2024-04-17 16:02:17,406 - DEBUG - Software override enabled: 0
+2024-04-17 16:02:19,012 - DEBUG - Initializing the main window.
+2024-04-17 16:02:19,050 - DEBUG - Attempting to setup API for use
+2024-04-17 16:02:19,051 - DEBUG - Finished setting up for API use
+2024-04-17 16:02:19,063 - DEBUG - Software override enabled: 1
+2024-04-17 16:02:19,063 - DEBUG - Updates enabled successfully.
+2024-04-17 16:02:21,387 - DEBUG - Software override enabled: 0
+2024-04-17 16:02:23,001 - DEBUG - Initializing the main window.
+2024-04-17 16:02:23,035 - DEBUG - Attempting to setup API for use
+2024-04-17 16:02:23,037 - DEBUG - Finished setting up for API use
+2024-04-17 16:02:23,046 - DEBUG - Software override enabled: 1
+2024-04-17 16:02:23,046 - DEBUG - Updates enabled successfully.
+2024-04-17 16:02:25,768 - DEBUG - Button clicked: Single
+2024-04-17 16:02:25,778 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:02:25,778 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:02:28,515 - DEBUG - Software override enabled: 0
+2024-04-17 16:03:09,794 - DEBUG - Initializing the main window.
+2024-04-17 16:03:09,832 - DEBUG - Attempting to setup API for use
+2024-04-17 16:03:09,833 - DEBUG - Finished setting up for API use
+2024-04-17 16:03:09,844 - DEBUG - Software override enabled: 1
+2024-04-17 16:03:09,844 - DEBUG - Updates enabled successfully.
+2024-04-17 16:03:15,454 - DEBUG - Initializing the main window.
+2024-04-17 16:03:15,488 - DEBUG - Attempting to setup API for use
+2024-04-17 16:03:15,490 - DEBUG - Finished setting up for API use
+2024-04-17 16:03:15,507 - DEBUG - Software override enabled: 1
+2024-04-17 16:03:15,508 - DEBUG - Updates enabled successfully.
+2024-04-17 16:03:18,635 - DEBUG - Initializing the main window.
+2024-04-17 16:03:18,671 - DEBUG - Attempting to setup API for use
+2024-04-17 16:03:18,672 - DEBUG - Finished setting up for API use
+2024-04-17 16:03:18,682 - DEBUG - Software override enabled: 1
+2024-04-17 16:03:18,682 - DEBUG - Updates enabled successfully.
+2024-04-17 16:04:43,981 - DEBUG - Initializing the main window.
+2024-04-17 16:04:44,016 - DEBUG - Attempting to setup API for use
+2024-04-17 16:04:44,018 - DEBUG - Finished setting up for API use
+2024-04-17 16:04:44,023 - DEBUG - Updates enabled successfully.
+2024-04-17 16:04:47,054 - DEBUG - Software override enabled: 0
+2024-04-17 16:04:55,676 - DEBUG - Initializing the main window.
+2024-04-17 16:04:55,713 - DEBUG - Attempting to setup API for use
+2024-04-17 16:04:55,714 - DEBUG - Finished setting up for API use
+2024-04-17 16:04:55,725 - DEBUG - Software override enabled: 1
+2024-04-17 16:04:55,725 - DEBUG - Updates enabled successfully.
+2024-04-17 16:04:57,613 - DEBUG - Software override enabled: 0
+2024-04-17 16:04:59,679 - DEBUG - Initializing the main window.
+2024-04-17 16:04:59,714 - DEBUG - Attempting to setup API for use
+2024-04-17 16:04:59,716 - DEBUG - Finished setting up for API use
+2024-04-17 16:04:59,722 - DEBUG - Updates enabled successfully.
+2024-04-17 16:05:01,107 - DEBUG - Software override enabled: 0
+2024-04-17 16:06:30,895 - DEBUG - Initializing the main window.
+2024-04-17 16:06:30,931 - DEBUG - Attempting to setup API for use
+2024-04-17 16:06:30,932 - DEBUG - Finished setting up for API use
+2024-04-17 16:08:45,530 - DEBUG - Initializing the main window.
+2024-04-17 16:08:45,569 - DEBUG - Attempting to setup API for use
+2024-04-17 16:08:45,570 - DEBUG - Finished setting up for API use
+2024-04-17 16:08:45,584 - DEBUG - Software override enabled: 1
+2024-04-17 16:08:45,584 - DEBUG - Updates enabled successfully.
+2024-04-17 16:08:47,784 - DEBUG - Button clicked: Single
+2024-04-17 16:08:47,793 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:08:47,793 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:08:51,930 - DEBUG - Software override enabled: 0
+2024-04-17 16:18:06,949 - DEBUG - Initializing the main window.
+2024-04-17 16:18:06,987 - DEBUG - Attempting to setup API for use
+2024-04-17 16:18:06,988 - DEBUG - Finished setting up for API use
+2024-04-17 16:18:07,000 - DEBUG - Software override enabled: 1
+2024-04-17 16:18:07,000 - DEBUG - Updates enabled successfully.
+2024-04-17 16:18:15,853 - DEBUG - Software override enabled: 0
+2024-04-17 16:18:20,674 - DEBUG - Initializing the main window.
+2024-04-17 16:18:20,713 - DEBUG - Attempting to setup API for use
+2024-04-17 16:18:20,714 - DEBUG - Finished setting up for API use
+2024-04-17 16:18:20,721 - DEBUG - Updates enabled successfully.
+2024-04-17 16:18:24,193 - DEBUG - Software override enabled: 0
+2024-04-17 16:18:28,572 - DEBUG - Initializing the main window.
+2024-04-17 16:18:28,606 - DEBUG - Attempting to setup API for use
+2024-04-17 16:18:28,607 - DEBUG - Finished setting up for API use
+2024-04-17 16:18:28,612 - DEBUG - Updates enabled successfully.
+2024-04-17 16:18:34,591 - DEBUG - Software override enabled: 0
+2024-04-17 16:23:44,844 - DEBUG - Initializing the main window.
+2024-04-17 16:23:44,880 - DEBUG - Attempting to setup API for use
+2024-04-17 16:23:44,881 - DEBUG - Finished setting up for API use
+2024-04-17 16:23:44,886 - DEBUG - Updates enabled successfully.
+2024-04-17 16:23:46,880 - DEBUG - Button clicked: Single
+2024-04-17 16:23:46,893 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:23:46,893 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:23:53,073 - DEBUG - Button clicked: Global
+2024-04-17 16:23:53,083 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 16:23:53,083 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 16:23:56,255 - DEBUG - Software override enabled: 0
+2024-04-17 16:24:21,309 - DEBUG - Initializing the main window.
+2024-04-17 16:24:21,346 - DEBUG - Attempting to setup API for use
+2024-04-17 16:24:21,348 - DEBUG - Finished setting up for API use
+2024-04-17 16:24:21,354 - DEBUG - Updates enabled successfully.
+2024-04-17 16:24:36,296 - DEBUG - Button clicked: Single
+2024-04-17 16:24:36,309 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:24:36,309 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:24:39,422 - DEBUG - Software override enabled: 0
+2024-04-17 16:25:04,122 - DEBUG - Initializing the main window.
+2024-04-17 16:25:04,157 - DEBUG - Attempting to setup API for use
+2024-04-17 16:25:04,159 - DEBUG - Finished setting up for API use
+2024-04-17 16:25:04,171 - DEBUG - Software override enabled: 1
+2024-04-17 16:25:04,171 - DEBUG - Updates enabled successfully.
+2024-04-17 16:25:08,536 - DEBUG - Button clicked: Dual
+2024-04-17 16:25:08,545 - ERROR - Error enabling updates: Failed to set SW override value: 0x10
+2024-04-17 16:25:08,545 - ERROR - Error setting update mode: Failed to set SW override value: 0x10
+2024-04-17 16:25:34,148 - DEBUG - Initializing the main window.
+2024-04-17 16:25:34,186 - DEBUG - Attempting to setup API for use
+2024-04-17 16:25:34,187 - DEBUG - Finished setting up for API use
+2024-04-17 16:25:34,199 - DEBUG - Software override enabled: 1
+2024-04-17 16:25:34,199 - DEBUG - Updates enabled successfully.
+2024-04-17 16:25:35,616 - DEBUG - Button clicked: Single
+2024-04-17 16:25:35,625 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:25:35,625 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:25:54,266 - DEBUG - Initializing the main window.
+2024-04-17 16:25:54,300 - DEBUG - Attempting to setup API for use
+2024-04-17 16:25:54,301 - DEBUG - Finished setting up for API use
+2024-04-17 16:25:54,305 - DEBUG - Updates enabled successfully.
+2024-04-17 16:25:55,992 - DEBUG - Button clicked: Single
+2024-04-17 16:25:56,004 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:25:56,004 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:26:00,342 - DEBUG - Software override enabled: 0
+2024-04-17 16:26:15,645 - DEBUG - Initializing the main window.
+2024-04-17 16:26:15,681 - DEBUG - Attempting to setup API for use
+2024-04-17 16:26:15,682 - DEBUG - Finished setting up for API use
+2024-04-17 16:26:15,693 - DEBUG - Software override enabled: 1
+2024-04-17 16:26:15,693 - DEBUG - Updates enabled successfully.
+2024-04-17 16:26:17,816 - DEBUG - Button clicked: Single
+2024-04-17 16:26:17,828 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:26:17,828 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:26:23,633 - DEBUG - Software override enabled: 0
+2024-04-17 16:26:50,572 - DEBUG - Initializing the main window.
+2024-04-17 16:26:50,610 - DEBUG - Attempting to setup API for use
+2024-04-17 16:26:50,612 - DEBUG - Finished setting up for API use
+2024-04-17 16:26:50,625 - DEBUG - Software override enabled: 1
+2024-04-17 16:26:50,626 - DEBUG - Updates enabled successfully.
+2024-04-17 16:26:53,232 - DEBUG - Software override enabled: -1
+2024-04-17 16:26:56,714 - DEBUG - Initializing the main window.
+2024-04-17 16:26:56,750 - DEBUG - Attempting to setup API for use
+2024-04-17 16:26:56,751 - DEBUG - Finished setting up for API use
+2024-04-17 16:26:56,763 - DEBUG - Software override enabled: 1
+2024-04-17 16:26:56,763 - DEBUG - Updates enabled successfully.
+2024-04-17 16:26:58,088 - DEBUG - Button clicked: Global
+2024-04-17 16:26:58,098 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 16:26:58,098 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 16:27:00,288 - DEBUG - Software override enabled: -1
+2024-04-17 16:29:32,736 - DEBUG - Initializing the main window.
+2024-04-17 16:29:32,773 - DEBUG - Attempting to setup API for use
+2024-04-17 16:29:32,774 - DEBUG - Finished setting up for API use
+2024-04-17 16:29:32,788 - DEBUG - Software override enabled: 1
+2024-04-17 16:29:32,788 - DEBUG - Updates enabled successfully.
+2024-04-17 16:29:36,142 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:29:38,340 - DEBUG - Initializing the main window.
+2024-04-17 16:29:38,374 - DEBUG - Attempting to setup API for use
+2024-04-17 16:29:38,375 - DEBUG - Finished setting up for API use
+2024-04-17 16:29:38,381 - DEBUG - Updates enabled successfully.
+2024-04-17 16:29:39,658 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:29:43,384 - DEBUG - Initializing the main window.
+2024-04-17 16:29:43,423 - DEBUG - Attempting to setup API for use
+2024-04-17 16:29:43,424 - DEBUG - Finished setting up for API use
+2024-04-17 16:29:43,438 - DEBUG - Software override enabled: 1
+2024-04-17 16:29:43,438 - DEBUG - Updates enabled successfully.
+2024-04-17 16:29:49,850 - DEBUG - Button clicked: Single
+2024-04-17 16:29:49,858 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:29:49,859 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:29:52,026 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:29:56,248 - DEBUG - Initializing the main window.
+2024-04-17 16:29:56,286 - DEBUG - Attempting to setup API for use
+2024-04-17 16:29:56,287 - DEBUG - Finished setting up for API use
+2024-04-17 16:29:56,300 - DEBUG - Software override enabled: 1
+2024-04-17 16:29:56,301 - DEBUG - Updates enabled successfully.
+2024-04-17 16:29:58,101 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:30:06,595 - DEBUG - Initializing the main window.
+2024-04-17 16:30:06,628 - DEBUG - Attempting to setup API for use
+2024-04-17 16:30:06,629 - DEBUG - Finished setting up for API use
+2024-04-17 16:30:06,641 - DEBUG - Software override enabled: c_short(1)
+2024-04-17 16:30:06,641 - DEBUG - Updates enabled successfully.
+2024-04-17 16:30:08,768 - DEBUG - Button clicked: Single
+2024-04-17 16:30:08,779 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:30:08,779 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:30:10,922 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:30:14,444 - DEBUG - Initializing the main window.
+2024-04-17 16:30:14,482 - DEBUG - Attempting to setup API for use
+2024-04-17 16:30:14,483 - DEBUG - Finished setting up for API use
+2024-04-17 16:30:14,490 - DEBUG - Updates enabled successfully.
+2024-04-17 16:30:16,201 - DEBUG - Button clicked: Single
+2024-04-17 16:30:16,214 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:30:16,214 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:30:18,578 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:30:21,418 - DEBUG - Initializing the main window.
+2024-04-17 16:30:21,456 - DEBUG - Attempting to setup API for use
+2024-04-17 16:30:21,457 - DEBUG - Finished setting up for API use
+2024-04-17 16:30:21,470 - DEBUG - Software override enabled: c_short(1)
+2024-04-17 16:30:21,470 - DEBUG - Updates enabled successfully.
+2024-04-17 16:30:29,921 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:30:38,349 - DEBUG - Initializing the main window.
+2024-04-17 16:30:38,383 - DEBUG - Attempting to setup API for use
+2024-04-17 16:30:38,384 - DEBUG - Finished setting up for API use
+2024-04-17 16:30:38,395 - DEBUG - Software override enabled: c_short(1)
+2024-04-17 16:30:38,395 - DEBUG - Updates enabled successfully.
+2024-04-17 16:30:39,984 - DEBUG - Button clicked: Single
+2024-04-17 16:30:39,994 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:30:39,994 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:30:42,070 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:30:43,645 - DEBUG - Initializing the main window.
+2024-04-17 16:30:43,685 - DEBUG - Attempting to setup API for use
+2024-04-17 16:30:43,687 - DEBUG - Finished setting up for API use
+2024-04-17 16:30:43,700 - DEBUG - Software override enabled: c_short(1)
+2024-04-17 16:30:43,700 - DEBUG - Updates enabled successfully.
+2024-04-17 16:30:45,328 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:30:54,963 - DEBUG - Initializing the main window.
+2024-04-17 16:30:55,001 - DEBUG - Attempting to setup API for use
+2024-04-17 16:30:55,003 - DEBUG - Finished setting up for API use
+2024-04-17 16:30:55,008 - DEBUG - Updates enabled successfully.
+2024-04-17 16:30:57,101 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:34:03,872 - DEBUG - Initializing the main window.
+2024-04-17 16:34:03,910 - DEBUG - Attempting to setup API for use
+2024-04-17 16:34:03,912 - DEBUG - Finished setting up for API use
+2024-04-17 16:34:03,923 - DEBUG - Software override enabled: c_short(1)
+2024-04-17 16:34:03,923 - DEBUG - Updates enabled successfully.
+2024-04-17 16:34:14,350 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:34:17,581 - DEBUG - Initializing the main window.
+2024-04-17 16:34:17,616 - DEBUG - Attempting to setup API for use
+2024-04-17 16:34:17,617 - DEBUG - Finished setting up for API use
+2024-04-17 16:34:17,629 - DEBUG - Software override enabled: 1
+2024-04-17 16:34:17,629 - DEBUG - Updates enabled successfully.
+2024-04-17 16:34:19,441 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:34:22,519 - DEBUG - Initializing the main window.
+2024-04-17 16:34:22,556 - DEBUG - Attempting to setup API for use
+2024-04-17 16:34:22,557 - DEBUG - Finished setting up for API use
+2024-04-17 16:34:22,569 - DEBUG - Software override enabled: 1
+2024-04-17 16:34:22,569 - DEBUG - Updates enabled successfully.
+2024-04-17 16:34:28,671 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:35:33,085 - DEBUG - Initializing the main window.
+2024-04-17 16:35:33,120 - DEBUG - Attempting to setup API for use
+2024-04-17 16:35:33,121 - DEBUG - Finished setting up for API use
+2024-04-17 16:35:33,129 - DEBUG - Software override enabled: 1
+2024-04-17 16:35:33,132 - DEBUG - Updates enabled successfully.
+2024-04-17 16:35:38,790 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:35:43,006 - DEBUG - Initializing the main window.
+2024-04-17 16:35:43,045 - DEBUG - Attempting to setup API for use
+2024-04-17 16:35:43,047 - DEBUG - Finished setting up for API use
+2024-04-17 16:35:43,055 - DEBUG - Software override enabled: 1
+2024-04-17 16:35:43,059 - DEBUG - Updates enabled successfully.
+2024-04-17 16:35:44,588 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:35:47,000 - DEBUG - Initializing the main window.
+2024-04-17 16:35:47,035 - DEBUG - Attempting to setup API for use
+2024-04-17 16:35:47,036 - DEBUG - Finished setting up for API use
+2024-04-17 16:35:47,045 - DEBUG - Software override enabled: 1
+2024-04-17 16:35:47,050 - DEBUG - Updates enabled successfully.
+2024-04-17 16:35:48,839 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:35:51,665 - DEBUG - Initializing the main window.
+2024-04-17 16:35:51,704 - DEBUG - Attempting to setup API for use
+2024-04-17 16:35:51,705 - DEBUG - Finished setting up for API use
+2024-04-17 16:35:51,710 - DEBUG - Updates enabled successfully.
+2024-04-17 16:36:01,261 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:36:04,097 - DEBUG - Initializing the main window.
+2024-04-17 16:36:04,132 - DEBUG - Attempting to setup API for use
+2024-04-17 16:36:04,133 - DEBUG - Finished setting up for API use
+2024-04-17 16:36:04,142 - DEBUG - Software override enabled: 1
+2024-04-17 16:36:04,147 - DEBUG - Updates enabled successfully.
+2024-04-17 16:36:08,036 - DEBUG - Software override enabled: c_short(0)
+2024-04-17 16:36:14,737 - DEBUG - Initializing the main window.
+2024-04-17 16:36:14,783 - DEBUG - Attempting to setup API for use
+2024-04-17 16:36:14,785 - DEBUG - Finished setting up for API use
+2024-04-17 16:36:14,793 - DEBUG - Software override enabled: 1
+2024-04-17 16:36:14,797 - DEBUG - Updates enabled successfully.
+2024-04-17 16:36:16,394 - DEBUG - Software override enabled: 0
+2024-04-17 16:36:23,152 - DEBUG - Initializing the main window.
+2024-04-17 16:36:23,190 - DEBUG - Attempting to setup API for use
+2024-04-17 16:36:23,192 - DEBUG - Finished setting up for API use
+2024-04-17 16:36:23,201 - DEBUG - Software override enabled: 1
+2024-04-17 16:36:23,205 - DEBUG - Updates enabled successfully.
+2024-04-17 16:36:31,937 - DEBUG - Software override enabled: 0
+2024-04-17 16:40:16,873 - DEBUG - Initializing the main window.
+2024-04-17 16:40:16,913 - DEBUG - Attempting to setup API for use
+2024-04-17 16:40:16,915 - DEBUG - Finished setting up for API use
+2024-04-17 16:40:16,921 - DEBUG - Updates enabled successfully.
+2024-04-17 16:40:18,441 - DEBUG - Software override enabled: 0
+2024-04-17 16:40:23,660 - DEBUG - Initializing the main window.
+2024-04-17 16:40:23,697 - DEBUG - Attempting to setup API for use
+2024-04-17 16:40:23,698 - DEBUG - Finished setting up for API use
+2024-04-17 16:40:23,706 - DEBUG - Software override enabled: 1
+2024-04-17 16:40:23,710 - DEBUG - Updates enabled successfully.
+2024-04-17 16:40:27,165 - DEBUG - Software override enabled: 0
+2024-04-17 16:42:18,886 - DEBUG - Initializing the main window.
+2024-04-17 16:42:18,919 - DEBUG - Attempting to setup API for use
+2024-04-17 16:42:18,920 - DEBUG - Finished setting up for API use
+2024-04-17 16:42:18,928 - DEBUG - Software override enabled: 1
+2024-04-17 16:42:18,933 - DEBUG - Updates enabled successfully.
+2024-04-17 16:42:21,964 - DEBUG - Software override enabled: 0
+2024-04-17 16:42:25,449 - DEBUG - Initializing the main window.
+2024-04-17 16:42:25,488 - DEBUG - Attempting to setup API for use
+2024-04-17 16:42:25,490 - DEBUG - Finished setting up for API use
+2024-04-17 16:42:25,500 - DEBUG - Software override enabled: 1
+2024-04-17 16:42:25,503 - DEBUG - Updates enabled successfully.
+2024-04-17 16:42:28,229 - DEBUG - Software override enabled: 0
+2024-04-17 16:42:41,533 - DEBUG - Initializing the main window.
+2024-04-17 16:42:41,568 - DEBUG - Attempting to setup API for use
+2024-04-17 16:42:41,569 - DEBUG - Finished setting up for API use
+2024-04-17 16:42:41,575 - DEBUG - Software override enabled: 1
+2024-04-17 16:42:41,580 - DEBUG - Updates enabled successfully.
+2024-04-17 16:42:43,010 - DEBUG - Software override enabled: 0
+2024-04-17 16:42:57,293 - DEBUG - Initializing the main window.
+2024-04-17 16:42:57,328 - DEBUG - Attempting to setup API for use
+2024-04-17 16:42:57,329 - DEBUG - Finished setting up for API use
+2024-04-17 16:43:27,774 - DEBUG - Initializing the main window.
+2024-04-17 16:43:27,813 - DEBUG - Attempting to setup API for use
+2024-04-17 16:43:27,814 - DEBUG - Finished setting up for API use
+2024-04-17 16:43:32,823 - DEBUG - Software override enabled: 1
+2024-04-17 16:43:32,827 - DEBUG - Updates enabled successfully.
+2024-04-17 16:43:45,111 - DEBUG - Initializing the main window.
+2024-04-17 16:43:45,149 - DEBUG - Attempting to setup API for use
+2024-04-17 16:43:45,151 - DEBUG - Finished setting up for API use
+2024-04-17 16:43:45,161 - DEBUG - Software override enabled: 1
+2024-04-17 16:43:45,165 - DEBUG - Updates enabled successfully.
+2024-04-17 16:43:47,758 - DEBUG - Software override enabled: 0
+2024-04-17 16:43:49,610 - DEBUG - Initializing the main window.
+2024-04-17 16:43:49,648 - DEBUG - Attempting to setup API for use
+2024-04-17 16:43:49,649 - DEBUG - Finished setting up for API use
+2024-04-17 16:43:49,657 - DEBUG - Software override enabled: 1
+2024-04-17 16:43:49,661 - DEBUG - Updates enabled successfully.
+2024-04-17 16:43:51,140 - DEBUG - Software override enabled: 0
+2024-04-17 16:43:52,796 - DEBUG - Initializing the main window.
+2024-04-17 16:43:52,839 - DEBUG - Attempting to setup API for use
+2024-04-17 16:43:52,840 - DEBUG - Finished setting up for API use
+2024-04-17 16:43:52,849 - DEBUG - Software override enabled: 1
+2024-04-17 16:43:52,853 - DEBUG - Updates enabled successfully.
+2024-04-17 16:43:54,390 - DEBUG - Software override enabled: 0
+2024-04-17 16:44:56,631 - DEBUG - Initializing the main window.
+2024-04-17 16:44:56,670 - DEBUG - Attempting to setup API for use
+2024-04-17 16:44:56,671 - DEBUG - Finished setting up for API use
+2024-04-17 16:44:56,678 - DEBUG - Updates enabled successfully.
+2024-04-17 16:44:58,450 - DEBUG - Button clicked: Global
+2024-04-17 16:44:58,459 - ERROR - Error enabling updates: Failed to set SW override value: 0x20
+2024-04-17 16:44:58,459 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 16:45:06,345 - DEBUG - Button clicked: Single
+2024-04-17 16:45:06,357 - ERROR - Error enabling updates: Failed to set SW override value: 0x0
+2024-04-17 16:45:06,357 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 16:45:10,344 - DEBUG - Button clicked: Dual
+2024-04-17 16:45:10,355 - ERROR - Error enabling updates: Failed to set SW override value: 0x10
+2024-04-17 16:45:10,355 - ERROR - Error setting update mode: Failed to set SW override value: 0x10
+2024-04-17 16:45:12,650 - DEBUG - Button clicked: Quad
+2024-04-17 16:45:12,660 - ERROR - Error enabling updates: Failed to set SW override value: 0x30
+2024-04-17 16:45:12,660 - ERROR - Error setting update mode: Failed to set SW override value: 0x30
+2024-04-17 16:45:15,017 - DEBUG - Software override enabled: 0
+2024-04-17 16:47:32,402 - DEBUG - Initializing the main window.
+2024-04-17 16:47:32,437 - DEBUG - Attempting to setup API for use
+2024-04-17 16:47:32,439 - DEBUG - Finished setting up for API use
+2024-04-17 16:47:32,446 - DEBUG - Software override enabled: 1
+2024-04-17 16:47:32,450 - DEBUG - Updates enabled successfully.
+2024-04-17 16:47:34,256 - DEBUG - Button clicked: Single
+2024-04-17 16:47:34,266 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:47:49,893 - DEBUG - Software override enabled: 0
+2024-04-17 16:47:59,839 - DEBUG - Initializing the main window.
+2024-04-17 16:47:59,876 - DEBUG - Attempting to setup API for use
+2024-04-17 16:47:59,877 - DEBUG - Finished setting up for API use
+2024-04-17 16:47:59,885 - DEBUG - Software override enabled: 1
+2024-04-17 16:47:59,890 - DEBUG - Updates enabled successfully.
+2024-04-17 16:48:01,601 - DEBUG - Button clicked: Single
+2024-04-17 16:48:01,611 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:48:04,637 - DEBUG - Software override enabled: 0
+2024-04-17 16:48:51,938 - DEBUG - Initializing the main window.
+2024-04-17 16:48:51,971 - DEBUG - Attempting to setup API for use
+2024-04-17 16:48:51,973 - DEBUG - Finished setting up for API use
+2024-04-17 16:48:51,980 - DEBUG - Software override enabled: 1
+2024-04-17 16:48:51,983 - DEBUG - Updates enabled successfully.
+2024-04-17 16:48:53,361 - DEBUG - Button clicked: Single
+2024-04-17 16:48:53,371 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:49:00,007 - DEBUG - Software override enabled: 0
+2024-04-17 16:51:50,496 - DEBUG - Initializing the main window.
+2024-04-17 16:51:50,533 - DEBUG - Attempting to setup API for use
+2024-04-17 16:51:50,534 - DEBUG - Finished setting up for API use
+2024-04-17 16:51:50,541 - DEBUG - Software override enabled: 1
+2024-04-17 16:51:50,546 - DEBUG - Updates enabled successfully.
+2024-04-17 16:51:52,585 - DEBUG - Button clicked: Single
+2024-04-17 16:51:52,594 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:52:58,400 - DEBUG - Button clicked: Single
+2024-04-17 16:52:58,409 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:53:00,479 - DEBUG - Software override enabled: 0
+2024-04-17 16:53:52,621 - DEBUG - Initializing the main window.
+2024-04-17 16:53:52,661 - DEBUG - Attempting to setup API for use
+2024-04-17 16:53:52,663 - DEBUG - Finished setting up for API use
+2024-04-17 16:53:52,669 - DEBUG - Updates enabled successfully.
+2024-04-17 16:53:54,240 - DEBUG - Button clicked: Single
+2024-04-17 16:53:54,252 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:53:54,792 - DEBUG - Button clicked: Dual
+2024-04-17 16:53:54,803 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:53:55,216 - DEBUG - Button clicked: Quad
+2024-04-17 16:53:55,227 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:53:56,048 - DEBUG - Button clicked: Dual
+2024-04-17 16:53:56,060 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:53:56,520 - DEBUG - Button clicked: Single
+2024-04-17 16:53:56,533 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:54:00,255 - DEBUG - Software override enabled: 0
+2024-04-17 16:54:02,492 - DEBUG - Initializing the main window.
+2024-04-17 16:54:02,529 - DEBUG - Attempting to setup API for use
+2024-04-17 16:54:02,531 - DEBUG - Finished setting up for API use
+2024-04-17 16:54:02,539 - DEBUG - Software override enabled: 1
+2024-04-17 16:54:02,543 - DEBUG - Updates enabled successfully.
+2024-04-17 16:54:04,625 - DEBUG - Button clicked: Single
+2024-04-17 16:54:04,635 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:54:07,264 - DEBUG - Button clicked: Dual
+2024-04-17 16:54:07,274 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:54:07,609 - DEBUG - Button clicked: Single
+2024-04-17 16:54:07,617 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:54:08,001 - DEBUG - Button clicked: Dual
+2024-04-17 16:54:08,008 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:54:08,360 - DEBUG - Button clicked: Single
+2024-04-17 16:54:08,370 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:54:13,284 - DEBUG - Software override enabled: 0
+2024-04-17 16:55:38,922 - DEBUG - Initializing the main window.
+2024-04-17 16:55:38,963 - DEBUG - Attempting to setup API for use
+2024-04-17 16:55:38,965 - DEBUG - Finished setting up for API use
+2024-04-17 16:55:38,973 - DEBUG - Software override enabled: 1
+2024-04-17 16:55:38,977 - DEBUG - Updates enabled successfully.
+2024-04-17 16:55:40,736 - DEBUG - Button clicked: Single
+2024-04-17 16:55:40,744 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:55:41,919 - DEBUG - Software override enabled: 0
+2024-04-17 16:57:14,863 - DEBUG - Initializing the main window.
+2024-04-17 16:57:14,904 - DEBUG - Attempting to setup API for use
+2024-04-17 16:57:14,906 - DEBUG - Finished setting up for API use
+2024-04-17 16:57:14,914 - DEBUG - Software override enabled: 1
+2024-04-17 16:57:14,919 - DEBUG - Updates enabled successfully.
+2024-04-17 16:57:23,793 - DEBUG - Button clicked: Single
+2024-04-17 16:57:23,802 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:57:25,728 - DEBUG - Button clicked: Single
+2024-04-17 16:57:25,737 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:57:26,854 - DEBUG - Software override enabled: 0
+2024-04-17 16:57:33,688 - DEBUG - Initializing the main window.
+2024-04-17 16:57:33,723 - DEBUG - Attempting to setup API for use
+2024-04-17 16:57:33,724 - DEBUG - Finished setting up for API use
+2024-04-17 16:57:33,729 - DEBUG - Updates enabled successfully.
+2024-04-17 16:57:39,652 - DEBUG - Software override enabled: 0
+2024-04-17 16:58:29,454 - DEBUG - Initializing the main window.
+2024-04-17 16:58:29,493 - DEBUG - Attempting to setup API for use
+2024-04-17 16:58:29,494 - DEBUG - Finished setting up for API use
+2024-04-17 16:58:29,505 - DEBUG - Software override enabled: 1
+2024-04-17 16:58:29,509 - DEBUG - Updates enabled successfully.
+2024-04-17 16:58:34,208 - DEBUG - Button clicked: Single
+2024-04-17 16:58:34,218 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:58:35,718 - DEBUG - Software override enabled: 0
+2024-04-17 16:58:38,332 - DEBUG - Initializing the main window.
+2024-04-17 16:58:38,371 - DEBUG - Attempting to setup API for use
+2024-04-17 16:58:38,372 - DEBUG - Finished setting up for API use
+2024-04-17 16:58:38,382 - DEBUG - Software override enabled: 1
+2024-04-17 16:58:38,387 - DEBUG - Updates enabled successfully.
+2024-04-17 16:58:45,297 - DEBUG - Button clicked: Single
+2024-04-17 16:58:45,306 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:58:46,750 - DEBUG - Software override enabled: 0
+2024-04-17 16:58:48,315 - DEBUG - Initializing the main window.
+2024-04-17 16:58:48,354 - DEBUG - Attempting to setup API for use
+2024-04-17 16:58:48,356 - DEBUG - Finished setting up for API use
+2024-04-17 16:58:48,367 - DEBUG - Software override enabled: 1
+2024-04-17 16:58:48,371 - DEBUG - Updates enabled successfully.
+2024-04-17 16:58:51,756 - DEBUG - Software override enabled: 0
+2024-04-17 16:58:54,582 - DEBUG - Initializing the main window.
+2024-04-17 16:58:54,621 - DEBUG - Attempting to setup API for use
+2024-04-17 16:58:54,623 - DEBUG - Finished setting up for API use
+2024-04-17 16:58:54,633 - DEBUG - Software override enabled: 1
+2024-04-17 16:58:54,637 - DEBUG - Updates enabled successfully.
+2024-04-17 16:59:05,032 - DEBUG - Button clicked: Single
+2024-04-17 16:59:05,041 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:59:05,944 - DEBUG - Button clicked: Global
+2024-04-17 16:59:05,952 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:59:06,808 - DEBUG - Button clicked: Single
+2024-04-17 16:59:06,818 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:59:07,296 - DEBUG - Button clicked: Dual
+2024-04-17 16:59:07,305 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:59:08,048 - DEBUG - Button clicked: Quad
+2024-04-17 16:59:08,056 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 16:59:09,024 - DEBUG - Software override enabled: 0
+2024-04-17 17:00:04,041 - DEBUG - Initializing the main window.
+2024-04-17 17:00:04,075 - DEBUG - Attempting to setup API for use
+2024-04-17 17:00:04,077 - DEBUG - Finished setting up for API use
+2024-04-17 17:00:13,111 - DEBUG - Initializing the main window.
+2024-04-17 17:00:13,144 - DEBUG - Attempting to setup API for use
+2024-04-17 17:00:13,146 - DEBUG - Finished setting up for API use
+2024-04-17 17:00:36,060 - DEBUG - Initializing the main window.
+2024-04-17 17:00:36,093 - DEBUG - Attempting to setup API for use
+2024-04-17 17:00:36,095 - DEBUG - Finished setting up for API use
+2024-04-17 17:00:36,106 - DEBUG - Software override enabled: 1
+2024-04-17 17:00:36,110 - DEBUG - Updates enabled successfully.
+2024-04-17 17:01:11,376 - DEBUG - Software override enabled: 0
+2024-04-17 17:01:12,802 - DEBUG - Initializing the main window.
+2024-04-17 17:01:12,841 - DEBUG - Attempting to setup API for use
+2024-04-17 17:01:12,843 - DEBUG - Finished setting up for API use
+2024-04-17 17:01:12,852 - DEBUG - Updates enabled successfully.
+2024-04-17 17:01:19,309 - DEBUG - Software override enabled: 0
+2024-04-17 17:01:34,189 - DEBUG - Initializing the main window.
+2024-04-17 17:01:34,222 - DEBUG - Attempting to setup API for use
+2024-04-17 17:01:34,224 - DEBUG - Finished setting up for API use
+2024-04-17 17:01:34,234 - DEBUG - Software override enabled: 1
+2024-04-17 17:01:34,239 - DEBUG - Updates enabled successfully.
+2024-04-17 17:01:41,806 - DEBUG - Software override enabled: 0
+2024-04-17 17:02:16,069 - DEBUG - Initializing the main window.
+2024-04-17 17:02:16,107 - DEBUG - Attempting to setup API for use
+2024-04-17 17:02:16,108 - DEBUG - Finished setting up for API use
+2024-04-17 17:02:16,118 - DEBUG - Software override enabled: 1
+2024-04-17 17:02:16,122 - DEBUG - Updates enabled successfully.
+2024-04-17 17:02:19,388 - DEBUG - Software override enabled: 0
+2024-04-17 17:02:21,198 - DEBUG - Initializing the main window.
+2024-04-17 17:02:21,235 - DEBUG - Attempting to setup API for use
+2024-04-17 17:02:21,237 - DEBUG - Finished setting up for API use
+2024-04-17 17:02:21,245 - DEBUG - Updates enabled successfully.
+2024-04-17 17:02:50,824 - DEBUG - Button clicked: Single
+2024-04-17 17:02:50,836 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:53,400 - DEBUG - Button clicked: Dual
+2024-04-17 17:02:53,410 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:53,832 - DEBUG - Button clicked: Quad
+2024-04-17 17:02:53,843 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:55,344 - DEBUG - Button clicked: Global
+2024-04-17 17:02:55,356 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:55,672 - DEBUG - Button clicked: Single
+2024-04-17 17:02:55,685 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:56,048 - DEBUG - Button clicked: Dual
+2024-04-17 17:02:56,060 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:56,368 - DEBUG - Button clicked: Quad
+2024-04-17 17:02:56,379 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:56,672 - DEBUG - Button clicked: Dual
+2024-04-17 17:02:56,683 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:56,920 - DEBUG - Button clicked: Single
+2024-04-17 17:02:56,934 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:02:57,760 - DEBUG - Software override enabled: 0
+2024-04-17 17:05:52,493 - DEBUG - Initializing the main window.
+2024-04-17 17:05:52,532 - DEBUG - Attempting to setup API for use
+2024-04-17 17:05:52,533 - DEBUG - Finished setting up for API use
+2024-04-17 17:05:52,545 - DEBUG - Software override enabled: 1
+2024-04-17 17:05:52,549 - DEBUG - Updates enabled successfully.
+2024-04-17 17:05:55,360 - DEBUG - Button clicked: Single
+2024-04-17 17:05:55,370 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:05:58,334 - DEBUG - Initializing the main window.
+2024-04-17 17:05:58,369 - DEBUG - Attempting to setup API for use
+2024-04-17 17:05:58,371 - DEBUG - Finished setting up for API use
+2024-04-17 17:05:58,380 - DEBUG - Software override enabled: 1
+2024-04-17 17:05:58,385 - DEBUG - Updates enabled successfully.
+2024-04-17 17:06:00,712 - DEBUG - Button clicked: Single
+2024-04-17 17:06:00,721 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:06:01,393 - DEBUG - Button clicked: Dual
+2024-04-17 17:06:01,401 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:06:01,904 - DEBUG - Button clicked: Single
+2024-04-17 17:06:01,914 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:06:04,987 - DEBUG - Initializing the main window.
+2024-04-17 17:06:05,024 - DEBUG - Attempting to setup API for use
+2024-04-17 17:06:05,025 - DEBUG - Finished setting up for API use
+2024-04-17 17:06:05,035 - DEBUG - Software override enabled: 1
+2024-04-17 17:06:05,039 - DEBUG - Updates enabled successfully.
+2024-04-17 17:06:16,202 - DEBUG - Initializing the main window.
+2024-04-17 17:06:16,237 - DEBUG - Attempting to setup API for use
+2024-04-17 17:06:16,239 - DEBUG - Finished setting up for API use
+2024-04-17 17:06:16,248 - DEBUG - Software override enabled: 1
+2024-04-17 17:06:16,253 - DEBUG - Updates enabled successfully.
+2024-04-17 17:07:17,002 - DEBUG - Initializing the main window.
+2024-04-17 17:07:17,038 - DEBUG - Attempting to setup API for use
+2024-04-17 17:07:17,040 - DEBUG - Finished setting up for API use
+2024-04-17 17:07:17,049 - DEBUG - Software override enabled: 1
+2024-04-17 17:07:17,052 - DEBUG - Updates enabled successfully.
+2024-04-17 17:07:19,145 - DEBUG - Button clicked: Dual
+2024-04-17 17:07:19,153 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:07:21,272 - DEBUG - Button clicked: Single
+2024-04-17 17:07:21,282 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:13:12,739 - DEBUG - Initializing the main window.
+2024-04-17 17:13:12,778 - DEBUG - Attempting to setup API for use
+2024-04-17 17:13:12,779 - DEBUG - Finished setting up for API use
+2024-04-17 17:13:12,789 - DEBUG - Software override enabled: 1
+2024-04-17 17:13:12,793 - DEBUG - Updates enabled successfully.
+2024-04-17 17:13:15,153 - DEBUG - Button clicked: Single
+2024-04-17 17:13:15,162 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:13:17,616 - DEBUG - Button clicked: Dual
+2024-04-17 17:13:17,625 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:13:18,984 - DEBUG - Button clicked: Global
+2024-04-17 17:13:18,993 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:13:22,271 - DEBUG - Initializing the main window.
+2024-04-17 17:13:22,304 - DEBUG - Attempting to setup API for use
+2024-04-17 17:13:22,306 - DEBUG - Finished setting up for API use
+2024-04-17 17:13:22,317 - DEBUG - Software override enabled: 1
+2024-04-17 17:13:22,321 - DEBUG - Updates enabled successfully.
+2024-04-17 17:15:03,003 - DEBUG - Initializing the main window.
+2024-04-17 17:15:03,038 - DEBUG - Attempting to setup API for use
+2024-04-17 17:15:03,039 - DEBUG - Finished setting up for API use
+2024-04-17 17:15:03,045 - DEBUG - Software override enabled: 1
+2024-04-17 17:15:03,047 - DEBUG - Updates enabled successfully.
+2024-04-17 17:15:09,651 - DEBUG - Initializing the main window.
+2024-04-17 17:15:09,686 - DEBUG - Attempting to setup API for use
+2024-04-17 17:15:09,687 - DEBUG - Finished setting up for API use
+2024-04-17 17:15:09,693 - DEBUG - Software override enabled: 1
+2024-04-17 17:15:09,695 - DEBUG - Updates enabled successfully.
+2024-04-17 17:15:21,343 - DEBUG - Initializing the main window.
+2024-04-17 17:15:21,381 - DEBUG - Attempting to setup API for use
+2024-04-17 17:15:21,382 - DEBUG - Finished setting up for API use
+2024-04-17 17:15:21,389 - DEBUG - Software override enabled: 1
+2024-04-17 17:15:21,391 - DEBUG - Updates enabled successfully.
+2024-04-17 17:19:11,727 - DEBUG - Initializing the main window.
+2024-04-17 17:19:11,764 - DEBUG - Attempting to setup API for use
+2024-04-17 17:19:11,766 - DEBUG - Finished setting up for API use
+2024-04-17 17:19:11,771 - DEBUG - Updates enabled successfully.
+2024-04-17 17:19:15,520 - DEBUG - Button clicked: Single
+2024-04-17 17:19:15,532 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:19:18,293 - DEBUG - Initializing the main window.
+2024-04-17 17:19:18,328 - DEBUG - Attempting to setup API for use
+2024-04-17 17:19:18,330 - DEBUG - Finished setting up for API use
+2024-04-17 17:19:18,335 - DEBUG - Updates enabled successfully.
+2024-04-17 17:20:26,542 - DEBUG - Initializing the main window.
+2024-04-17 17:20:26,582 - DEBUG - Attempting to setup API for use
+2024-04-17 17:20:26,583 - DEBUG - Finished setting up for API use
+2024-04-17 17:20:26,589 - DEBUG - Updates enabled successfully.
+2024-04-17 17:20:27,728 - DEBUG - Button clicked: Single
+2024-04-17 17:20:27,739 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:20:28,863 - ERROR - Error setting software override: Failed to Disable Software Override
+2024-04-17 17:21:51,598 - DEBUG - Initializing the main window.
+2024-04-17 17:21:51,634 - DEBUG - Attempting to setup API for use
+2024-04-17 17:21:51,636 - DEBUG - Finished setting up for API use
+2024-04-17 17:21:51,646 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 17:21:51,646 - ERROR - Error enabling updates: Failed to Enable Software Override
+2024-04-17 17:21:55,733 - DEBUG - Initializing the main window.
+2024-04-17 17:21:55,768 - DEBUG - Attempting to setup API for use
+2024-04-17 17:21:55,770 - DEBUG - Finished setting up for API use
+2024-04-17 17:21:55,775 - DEBUG - Updates enabled successfully.
+2024-04-17 17:21:59,537 - DEBUG - Button clicked: Global
+2024-04-17 17:21:59,542 - ERROR - Error setting software value: Failed to set SW override value: 0x20
+2024-04-17 17:21:59,542 - ERROR - Error setting update mode: Failed to set SW override value: 0x20
+2024-04-17 17:22:01,680 - DEBUG - Button clicked: Single
+2024-04-17 17:22:01,685 - ERROR - Error setting software value: Failed to set SW override value: 0x0
+2024-04-17 17:22:01,685 - ERROR - Error setting update mode: Failed to set SW override value: 0x0
+2024-04-17 17:22:06,552 - DEBUG - Button clicked: Dual
+2024-04-17 17:22:06,557 - ERROR - Error setting software value: Failed to set SW override value: 0x10
+2024-04-17 17:22:06,557 - ERROR - Error setting update mode: Failed to set SW override value: 0x10
+2024-04-17 17:22:09,544 - DEBUG - Button clicked: Quad
+2024-04-17 17:22:09,550 - ERROR - Error setting software value: Failed to set SW override value: 0x30
+2024-04-17 17:22:09,550 - ERROR - Error setting update mode: Failed to set SW override value: 0x30
+2024-04-17 17:22:11,987 - ERROR - Error setting software override: Failed to Disable Software Override
+2024-04-17 17:22:49,370 - DEBUG - Initializing the main window.
+2024-04-17 17:22:49,406 - DEBUG - Attempting to setup API for use
+2024-04-17 17:22:49,407 - DEBUG - Finished setting up for API use
+2024-04-17 17:22:49,416 - ERROR - Error setting software override: Failed to Enable Software Override
+2024-04-17 17:22:49,416 - ERROR - Error enabling updates: Failed to Enable Software Override
+2024-04-17 17:24:48,608 - DEBUG - Initializing the main window.
+2024-04-17 17:24:48,643 - DEBUG - Attempting to setup API for use
+2024-04-17 17:24:48,644 - DEBUG - Finished setting up for API use
+2024-04-17 17:24:48,649 - DEBUG - Updates enabled successfully.
+2024-04-17 17:24:50,856 - DEBUG - Button clicked: Single
+2024-04-17 17:24:50,865 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:24:57,577 - DEBUG - Button clicked: Dual
+2024-04-17 17:24:57,585 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:24:58,057 - DEBUG - Button clicked: Quad
+2024-04-17 17:24:58,066 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:24:58,424 - DEBUG - Button clicked: Dual
+2024-04-17 17:24:58,433 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:24:59,840 - DEBUG - Button clicked: Global
+2024-04-17 17:24:59,848 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:25:00,740 - DEBUG - Software override enabled: 0
+2024-04-17 17:25:08,750 - DEBUG - Initializing the main window.
+2024-04-17 17:25:08,788 - DEBUG - Attempting to setup API for use
+2024-04-17 17:25:08,789 - DEBUG - Finished setting up for API use
+2024-04-17 17:25:08,795 - DEBUG - Updates enabled successfully.
+2024-04-17 17:25:11,793 - DEBUG - Button clicked: Single
+2024-04-17 17:25:11,804 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:25:12,632 - DEBUG - Button clicked: Dual
+2024-04-17 17:25:12,644 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:25:13,580 - DEBUG - Software override enabled: 0
+2024-04-17 17:26:03,899 - DEBUG - Initializing the main window.
+2024-04-17 17:26:03,940 - DEBUG - Attempting to setup API for use
+2024-04-17 17:26:03,941 - DEBUG - Finished setting up for API use
+2024-04-17 17:26:03,948 - DEBUG - Updates enabled successfully.
+2024-04-17 17:26:05,881 - DEBUG - Button clicked: Global
+2024-04-17 17:26:05,888 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:12,728 - DEBUG - Button clicked: Single
+2024-04-17 17:26:12,737 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:13,368 - DEBUG - Button clicked: Dual
+2024-04-17 17:26:13,377 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:14,552 - DEBUG - Button clicked: Quad
+2024-04-17 17:26:14,561 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:15,201 - DEBUG - Button clicked: Dual
+2024-04-17 17:26:15,210 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:15,616 - DEBUG - Button clicked: Single
+2024-04-17 17:26:15,625 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:16,669 - DEBUG - Software override enabled: 0
+2024-04-17 17:26:30,621 - DEBUG - Initializing the main window.
+2024-04-17 17:26:30,657 - DEBUG - Attempting to setup API for use
+2024-04-17 17:26:30,659 - DEBUG - Finished setting up for API use
+2024-04-17 17:26:30,664 - DEBUG - Updates enabled successfully.
+2024-04-17 17:26:32,224 - DEBUG - Button clicked: Quad
+2024-04-17 17:26:32,233 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:33,297 - DEBUG - Button clicked: Dual
+2024-04-17 17:26:33,304 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:34,240 - DEBUG - Button clicked: Quad
+2024-04-17 17:26:34,247 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:38,440 - DEBUG - Button clicked: Global
+2024-04-17 17:26:38,447 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:38,904 - DEBUG - Button clicked: Global
+2024-04-17 17:26:38,911 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:26:39,872 - DEBUG - Software override enabled: 0
+2024-04-17 17:26:59,910 - DEBUG - Initializing the main window.
+2024-04-17 17:26:59,948 - DEBUG - Attempting to setup API for use
+2024-04-17 17:26:59,949 - DEBUG - Finished setting up for API use
+2024-04-17 17:26:59,955 - DEBUG - Updates enabled successfully.
+2024-04-17 17:27:03,089 - DEBUG - Button clicked: Global
+2024-04-17 17:27:03,096 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:27:04,160 - DEBUG - Button clicked: Single
+2024-04-17 17:27:04,169 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:27:04,632 - DEBUG - Button clicked: Dual
+2024-04-17 17:27:04,640 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:27:05,185 - DEBUG - Button clicked: Quad
+2024-04-17 17:27:05,193 - ERROR - Failed to set software switch override value. Error code: -1. Error message: 0
+2024-04-17 17:27:06,422 - DEBUG - Software override enabled: 0
+2024-04-17 17:28:13,681 - DEBUG - Initializing the main window.
+2024-04-17 17:28:13,719 - DEBUG - Attempting to setup API for use
+2024-04-17 17:28:13,720 - DEBUG - Finished setting up for API use
+2024-04-17 17:28:13,726 - DEBUG - Updates enabled successfully.
+2024-04-17 17:28:15,545 - DEBUG - Button clicked: Global
+2024-04-17 17:28:16,177 - DEBUG - Button clicked: Single
+2024-04-17 17:28:21,755 - DEBUG - Software override enabled: 0
+2024-04-17 17:28:54,674 - DEBUG - Initializing the main window.
+2024-04-17 17:28:54,712 - DEBUG - Attempting to setup API for use
+2024-04-17 17:28:54,714 - DEBUG - Finished setting up for API use
+2024-04-17 17:28:54,720 - DEBUG - Updates enabled successfully.
+2024-04-17 17:28:56,600 - DEBUG - Button clicked: Global
+2024-04-17 17:28:56,613 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:00,400 - DEBUG - Button clicked: Single
+2024-04-17 17:29:00,413 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:02,265 - DEBUG - Button clicked: Dual
+2024-04-17 17:29:02,277 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:04,552 - DEBUG - Button clicked: Quad
+2024-04-17 17:29:04,564 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:05,017 - DEBUG - Button clicked: Dual
+2024-04-17 17:29:05,032 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:14,296 - DEBUG - Button clicked: Quad
+2024-04-17 17:29:14,309 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:16,032 - DEBUG - Button clicked: Quad
+2024-04-17 17:29:16,045 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:17,216 - DEBUG - Button clicked: Dual
+2024-04-17 17:29:17,231 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:18,448 - DEBUG - Button clicked: Dual
+2024-04-17 17:29:18,460 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:19,537 - DEBUG - Button clicked: Single
+2024-04-17 17:29:19,550 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:21,233 - DEBUG - Button clicked: Single
+2024-04-17 17:29:21,247 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:22,384 - DEBUG - Button clicked: Global
+2024-04-17 17:29:22,398 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:23,305 - DEBUG - Button clicked: Global
+2024-04-17 17:29:23,317 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:26,016 - DEBUG - Button clicked: Quad
+2024-04-17 17:29:26,031 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:26,592 - DEBUG - Button clicked: Quad
+2024-04-17 17:29:26,603 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:30,904 - DEBUG - Button clicked: Dual
+2024-04-17 17:29:30,916 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:31,296 - DEBUG - Button clicked: Quad
+2024-04-17 17:29:31,308 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-17 17:29:33,190 - DEBUG - Software override enabled: 0
