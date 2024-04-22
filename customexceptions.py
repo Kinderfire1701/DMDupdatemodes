@@ -9,3 +9,7 @@ class EnableSWOverrideError(Exception):
             super().__init__("Failed to Enable Software Override")
         else:
             super().__init__("Failed to Disable Software Override")
+            
+class ConnectDeviceError(Exception):
+    def __init__(self):
+        super().__init__("Failed to connect to USB device")

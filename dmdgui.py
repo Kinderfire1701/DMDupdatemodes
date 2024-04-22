@@ -35,7 +35,7 @@ class MainWindow(tk.Tk):
 
         try:
             self._controller = DLPController()
-            self._controller.enable_updates()
+            self._controller.enable_override()
             logger.debug("Updates enabled successfully.")
         except EnableSWOverrideError as exception:
             logger.error(f"Error enabling updates: {exception}")
@@ -52,7 +52,7 @@ class MainWindow(tk.Tk):
         Disables updates when the window is deleted.
         """
         try:
-            self._controller.disable_updates()
+            self._controller.disable_override()
         except EnableSWOverrideError as exception:
             self.show_error_message_box(str(exception))
             sys.exit(1)

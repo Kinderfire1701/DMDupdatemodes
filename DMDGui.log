@@ -872,3 +872,36 @@
 2024-04-17 17:29:31,296 - DEBUG - Button clicked: Quad
 2024-04-17 17:29:31,308 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
 2024-04-17 17:29:33,190 - DEBUG - Software override enabled: 0
+2024-04-22 05:24:58,956 - DEBUG - Attempting to setup API for use
+2024-04-22 05:24:58,957 - DEBUG - Finished setting up for API use
+2024-04-22 05:24:58,963 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:25:37,386 - DEBUG - Attempting to setup API for use
+2024-04-22 05:25:37,387 - DEBUG - Finished setting up for API use
+2024-04-22 05:25:37,393 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:25:53,430 - DEBUG - Attempting to setup API for use
+2024-04-22 05:25:53,432 - DEBUG - Finished setting up for API use
+2024-04-22 05:25:53,437 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:26:14,633 - DEBUG - Attempting to setup API for use
+2024-04-22 05:26:14,635 - DEBUG - Finished setting up for API use
+2024-04-22 05:26:14,642 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:27:24,608 - DEBUG - Attempting to setup API for use
+2024-04-22 05:27:24,610 - DEBUG - Finished setting up for API use
+2024-04-22 05:27:24,615 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:37:57,710 - DEBUG - Attempting to setup API for use
+2024-04-22 05:37:57,712 - DEBUG - Finished setting up for API use
+2024-04-22 05:37:57,717 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:43:04,310 - DEBUG - Attempting to setup API for use
+2024-04-22 05:43:04,312 - DEBUG - Finished setting up for API use
+2024-04-22 05:43:04,318 - DEBUG - Attempting to connect to USB device
+2024-04-22 05:44:06,182 - DEBUG - Attempting to setup API for use
+2024-04-22 05:44:06,184 - DEBUG - Finished setting up for API use
+2024-04-22 07:04:36,998 - DEBUG - Attempting to setup API for use
+2024-04-22 07:06:13,348 - DEBUG - Attempting to setup API for use
+2024-04-22 07:09:23,938 - DEBUG - Attempting to setup API for use
+2024-04-22 07:11:40,846 - DEBUG - Attempting to setup API for use
+2024-04-22 07:12:44,019 - DEBUG - Attempting to setup API for use
+2024-04-22 07:13:40,726 - DEBUG - Attempting to setup API for use
+2024-04-22 07:14:26,175 - DEBUG - Attempting to setup API for use
+2024-04-22 07:14:26,176 - DEBUG - Finished setting up DLL API
+2024-04-22 07:14:27,506 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:14:27,511 - DEBUG - Attempting to connect to USB device
