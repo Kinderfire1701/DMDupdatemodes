@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
-from dlpcontroller import DLPController
+from dlpcontroller import DLPControllerActiveX, DLPControllerDLL
 from customexceptions import EnableSWOverrideError, SetSWOverrideValueError
 import logging
 import sys
@@ -17,6 +17,8 @@ class MainWindow(tk.Tk):
         _curr_mode (str): The current update mode.
         _controller (DLPController): The DLP controller instance.
         image_label (tk.Label): Label to display the image.
+        _interface (str): The current interface being used ('ActiveX' or 'DLL').
+        interface_label (tk.Label): Label to display the current interface.
     """
     def __init__(self):
         """
@@ -29,12 +31,17 @@ class MainWindow(tk.Tk):
 
         self._curr_mode = None
         self._controller = None
+        self._interface = 'ActiveX'  # Default interface
 
         self.init_ui()
         self.load_image('Global')
 
         try:
-            self._controller = DLPController()
+            if self._interface == 'ActiveX':
+                self._controller = DLPControllerActiveX()
+            elif self._interface == 'DLL':
+                self._controller = DLPControllerDLL()
+                
             self._controller.enable_override()
             logger.debug("Updates enabled successfully.")
         except EnableSWOverrideError as exception:
@@ -51,18 +58,19 @@ class MainWindow(tk.Tk):
         """
         Disables updates when the window is deleted.
         """
-        try:
-            self._controller.disable_override()
-        except EnableSWOverrideError as exception:
-            self.show_error_message_box(str(exception))
-            sys.exit(1)
+        if self._controller:
+            try:
+                self._controller.disable_override()
+            except EnableSWOverrideError as exception:
+                self.show_error_message_box(str(exception))
+                sys.exit(1)
 
     def init_ui(self):
         """
         Initializes the user interface.
         """
         self.title("DMD Update Mode GUI")
-        self.geometry("500x300")
+        self.geometry("700x500")
 
         # Create main frame
         main_frame = tk.Frame(self)
@@ -93,6 +101,14 @@ class MainWindow(tk.Tk):
         # Create label for image
         self.image_label = tk.Label(self.image_frame, text="Image Area")
         self.image_label.pack(fill=tk.BOTH, expand=True)
+        
+        # Create a label to display the current interface
+        self.interface_label = tk.Label(label_frame, text=f'Current Interface: {self._interface}')
+        self.interface_label.pack(side=tk.TOP, pady=10, anchor=tk.NW)
+
+        # Create a button to switch interface
+        switch_button = tk.Button(label_frame, text='Switch Interface', command=self.switch_interface)
+        switch_button.pack(side=tk.TOP, pady=5, anchor=tk.NW)
 
     def button_clicked(self, button_text):
         """
@@ -149,6 +165,42 @@ class MainWindow(tk.Tk):
             message (str): The error message to display.
         """
         messagebox.showerror("Error", message)
+        
+    def switch_interface(self):
+        """
+        Switches between ActiveX and DLL interfaces.
+        """
+        if self._interface == 'ActiveX':
+            self._interface = 'DLL'
+            logger.debug("Switching interface to DLL")
+        else:
+            self._interface = 'ActiveX'
+            logger.debug("Switching interface to ActiveX")
+            
+        # Delete current controller instance
+        del self._controller
+        
+        # Create new controller instance
+        try:
+            if self._interface == 'ActiveX':
+                self._controller = DLPControllerActiveX()
+            elif self._interface == 'DLL':
+                self._controller = DLPControllerDLL()
+                
+            self._controller.enable_override()
+            logger.debug("Updates enabled successfully.")
+        except EnableSWOverrideError as exception:
+            logger.error(f"Error enabling updates: {exception}")
+            self.show_error_message_box(str(exception))
+            sys.exit(1)
+        except FileNotFoundError as exception:
+            logger.error(f"File not found: {exception}")
+            msg = """.dll file for API not found.
+            Launching anyway, but DMD update mode cannot be changed!"""
+            self.show_error_message_box(msg)
+        
+        # Update interface label
+        self.interface_label.config(text=f'Current Interface: {self._interface}')
 
 if __name__ == '__main__':
     app = MainWindow()
