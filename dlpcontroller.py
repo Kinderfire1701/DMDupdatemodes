@@ -117,7 +117,7 @@ class DLPController:
         
         try:
             self.device_numbers = self._activex.dynamicCall("GetNumDevices( )")
-            self._activex.dynamicCall("ConnectDevice()".format(id, bin_path)) 
+            self._activex.dynamicCall("ConnectDevice(short, LPCTSTR)", id, bin_path)
             logging.debug(f'Device {id} of {self.device_numbers} successfully connected')  
         except ConnectDeviceError as e:
             logging.debug(e)
