@@ -72,19 +72,15 @@ class DLPController:
             SetSWOverrideValueError: If setting the software override value fails.
             To be handled outside the class.
         """
-        value_short = ctypes.c_short(value)
-        result = self._dll.SetSWOverrideValue(value_short,0)
-        if result != 0:
-            error_msg = ctypes.get_last_error()
-            detailed_error_msg = f"Failed to set software switch override value. Error code: {result}. Error message: {error_msg}"
-            logging.error(detailed_error_msg)
-            exception = ValueError(detailed_error_msg)
-            raise exception
-    
-        new_val = self._dll.GetSWOverrideValue()
-        binary_override = bin(new_val)
-        print(f'Software override value set to {new_val}')
-        logging.debug(f'Software override value set to {new_val}')
+        try:
+            self._activex.dynamicCall("SetSWOverrideValue(short)", value)
+            new_val = self._activex.dynamicCall("GetSWOverrideValue()")
+            binary_override = bin(new_val)
+            print(f'Software override value set to {binary_override}')
+            logging.debug(f'Software override value set to {binary_override}')
+        except SetSWOverrideValueError as e:
+            logging.error(e)
+            raise e
 
 
     def _set_sw_override_enable(self, value):
@@ -96,16 +92,16 @@ class DLPController:
 
         Raises:
             EnableSWOverrideError: If enabling or disabling software override fails.
-            To behandled outside class
+            To be handled outside the class.
         """
-        value_short = ctypes.c_short(value)
-        result = self._dll.SetSWOverrideEnable(value_short)
-        print("Result of current action:", result)
-        if result != 0:
-            exception = EnableSWOverrideError(value)
-            logging.error(f"Error setting software override: {str(exception)}")
-            raise exception
-        logging.debug(f'Software override enabled: {value}')
+        try:
+            result = self._activex.dynamicCall("SetSWOverrideEnable(short)", value)
+            logging.debug(f'Software override enabled: {value}')
+            return result
+        except EnableSWOverrideError as e:
+            logging.error(e)
+            raise e
+
 
     def connect_device(self, id = 1, bin_path = r'C:\Program Files (x86)\D4100Explorer\D4100_GUI_FPGA.bin'):
         """
@@ -191,7 +187,6 @@ class DLPController:
     def set_single(self):
         """Set the DMD to single row update mode."""
         binary_input_value = 0x00 # 0000 0000
-        print(type(binary_input_value))
         self._set_sw_override_value(binary_input_value)
 
     def set_dual(self):
