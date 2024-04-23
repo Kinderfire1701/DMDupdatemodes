@@ -116,7 +116,7 @@ class DLPController:
         logging.debug("Attempting to connect to USB device")
         
         try:
-            self.device_numbers = self._activex.dynamicCall("GetNumDevices( )"))
+            self.device_numbers = self._activex.dynamicCall("GetNumDevices( )")
             self._activex.dynamicCall("ConnectDevice()".format(id, bin_path)) 
             logging.debug(f'Device {id} of {self.device_numbers} successfully connected')  
         except ConnectDeviceError as e:
