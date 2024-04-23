@@ -71,9 +71,6 @@ class DLPController:
         """
         value_short = ctypes.c_short(value)
         result = self._dll.SetSWOverrideValue(value_short,0)
-        print("Current SW override", bin(self._dll.GetSWOverrideEnable(0)))
-        print("Current SW override Value", bin(self._dll.GetSWOverrideValue(0)))
-        print("Result of current action:", result)
         if result != 0:
             error_msg = ctypes.get_last_error()
             detailed_error_msg = f"Failed to set software switch override value. Error code: {result}. Error message: {error_msg}"
@@ -177,21 +174,14 @@ class DLPController:
     def enable_override(self):
         """Enables software override for the DLP device settings and disables mechanical DIP switches. Class _set_sw_override_enable"""
         if self._dll.GetSWOverrideEnable(0) != 1:
-            print("Enabling Override")
             enable_value = 1
             self._set_sw_override_enable(enable_value)
-            print("New", bin(self._dll.GetSWOverrideEnable(0)))
 
     def disable_override(self):
         """Disables software override for the DLP device and enables mechanical DIP switches. Calls _set_sw_override_enable"""
         if self._dll.GetSWOverrideEnable() != 0:
             disable_value = 0
-            print("Disabling Override")
-            print("value = ", bin(disable_value))
-            print("Current SW override", bin(self._dll.GetSWOverrideEnable(0)))
             self._set_sw_override_enable(disable_value)
-            print("New", bin(self._dll.GetSWOverrideEnable(0)))
-            print("Current SW override Value", bin(self._dll.GetSWOverrideValue(0)))
 
     def set_single(self):
         """Set the DMD to single row update mode."""
