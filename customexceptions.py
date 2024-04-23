@@ -13,3 +13,7 @@ class EnableSWOverrideError(Exception):
 class ConnectDeviceError(Exception):
     def __init__(self):
         super().__init__("Failed to connect to USB device")
+        
+class BufferUploadError(Exception):
+    def __init__(self, path):
+        super().__init__(f"Failed to load buffer with image: {path}")

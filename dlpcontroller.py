@@ -3,6 +3,7 @@ import ctypes
 import logging
 from customexceptions import *
 from PyQt5 import QtWidgets, QAxContainer
+import sys
 
 logging.basicConfig(filename='DMDGui.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -30,7 +31,7 @@ class DLPController:
             Data type of the return value of SetSWOverrideEnable function.
     """
 
-    def __init__(self, dll_path=r'C:\Windows\SysWOW64\D4100_usb.dll', ocx_path=r'C:\Windows\SysWOW64\DDC4100.ocx'):
+    def __init__(self, dll_path=r'C:\Windows\SysWOW64\D4100_usb.dll', COM_class='DDC4100.DDC4100Ctrl.1'):
         """
         Initialize the DLPController object.
         Uses the ctypes package to setup interactions with the API
@@ -38,7 +39,7 @@ class DLPController:
         Args:
             dll_path (str): Path to the DLL file for interfacing with the DLP device.
             Defaults to 'D4100_usb.dll'
-            ocx_path (str): Path to ocx file for accessing ActiveX API.
+            com_class (str): Name of COM class, which can be found by searching for "DDC4100" in the Windows Registry Editor.
         """
         # initializing DLL API
         logging.debug("Attempting to setup API for use")
@@ -53,7 +54,7 @@ class DLPController:
         
         # initializing ActiveX API
         self._app = QtWidgets.QApplication([''])
-        self._activex = QAxContainer.QAxWidget(ocx_path)
+        self._activex = QAxContainer.QAxWidget(COM_class)
         
         logging.debug("Finished setting up ActiveX API")
 
@@ -118,11 +119,61 @@ class DLPController:
         logging.debug("Attempting to connect to USB device")
         
         try:
-            self._activex.dynamicCall("ConnectDevice({}, {})".format(id, bin_path)) 
-            self._app.exec_()
+            self.device_numbers = self._activex.dynamicCall("GetNumDevices( )"))
+            self._activex.dynamicCall("ConnectDevice()".format(id, bin_path)) 
+            logging.debug(f'Device {id} of {self.device_numbers} successfully connected')  
         except ConnectDeviceError as e:
-            print("Error connecting")
+            logging.debug(e)
+    
+    def load_image_buffer(self, image_path, mirrored = False):
+        """
+        Converts image from several formats (bmp, jpg, gif, or bin) to a binary file and
+        then loads binary file to image buffer of ActiveX controller
         
+        Args:
+            image_path (str): Location of binary image in bmp, jpg, gif, or bin format.
+            mirrored (bool): If set to True, a mirrored image will also be prepared for the buffer.
+        """
+        
+        mirror_value = int(mirrored) # any value other than 0 will enable the mirror feature, not specifically 1   
+        result = self._activex.dynamicCall(f"FileToFrameBuffer({image_path}, {mirror_value})"))
+        
+        if result != 1: 
+            exception = BufferUploadError(image_path)
+            logging.error(f"Error uploading image: {str(exception)}")
+            raise exception
+        else:
+            logging.debug(f"Image uploaded from {image_path}")
+        
+    def load_buffer_DMD(self, block_number = 17, reset = True, Load4 = False):
+        """
+        Loads image from ActiveX controller buffer to a block of mirrors or all mirrors on DMD device.
+        
+        Args:
+            block_number (int): Integers 1 to 16 designate blocks of mirrors on the DMD. This selects which block is updated.
+            If set greater than 16, then the image is globally loaded to the whole DMD
+            reset (bool): If enabled, then a write (reset) is automatically performed after the image is loaded from the buffer to the DMD.
+            Load4 (bool): If enabled, activates a setting on the DMD that simulatenously loads four row using the same row data. 
+                          Doing so sacrifices vertical resolution in exchange for faster loading times. Turned off by default.
+        """
+        
+        reset_value = int(reset)
+        Load4_value = int(Load4)
+        result = self._activex.dynamicCall(f"LoadToDMD({block_number}, {reset_value}, {Load4_value_value})"))     
+        if result != 1: 
+            logging.error("Error uploading image: Failed to load image from buffer to DMD device")
+        else:
+            logging.debug("Loaded image from ActiveX buffer to DMD device")
+            
+           
+        
+    def load_movie_buffer(self):
+        """
+        
+        """
+        
+    @staticmethod
+    def bool_to_
     def enable_override(self):
         """Enables software override for the DLP device settings and disables mechanical DIP switches. Class _set_sw_override_enable"""
         if self._dll.GetSWOverrideEnable(0) != 1:
