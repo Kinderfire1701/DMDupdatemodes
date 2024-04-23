@@ -49,6 +49,9 @@ class DLPController:
         
         self._dll.SetSWOverrideEnable.argtypes = [ctypes.c_short]
         self._dll.SetSWOverrideEnable.restype = ctypes.c_short
+
+        self._dll.GetSWOverrideValue.argtypes = []
+        self._dll.GetSWOverrideValue.restype = ctypes.c_short
         
         logging.debug("Finished setting up DLL API")
         
@@ -78,7 +81,10 @@ class DLPController:
             exception = ValueError(detailed_error_msg)
             raise exception
     
-        logging.debug(f'Software override value set to {value}')
+        new_val = self._dll.GetSWOverrideValue()
+        binary_override = bin(new_val)
+        print(f'Software override value set to {new_val}')
+        logging.debug(f'Software override value set to {new_val}')
 
 
     def _set_sw_override_enable(self, value):
