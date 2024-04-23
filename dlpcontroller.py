@@ -133,7 +133,7 @@ class DLPController:
         """
         
         mirror_value = int(mirrored) # any value other than 0 will enable the mirror feature, not specifically 1   
-        result = self._activex.dynamicCall(f"FileToFrameBuffer({image_path}, {mirror_value})"))
+        result = self._activex.dynamicCall(f"FileToFrameBuffer({image_path}, {mirror_value})")
         
         if result != 1: 
             exception = BufferUploadError(image_path)
@@ -156,7 +156,7 @@ class DLPController:
         
         reset_value = int(reset)
         Load4_value = int(Load4)
-        result = self._activex.dynamicCall(f"LoadToDMD({block_number}, {reset_value}, {Load4_value_value})"))     
+        result = self._activex.dynamicCall(f"LoadToDMD({block_number}, {reset_value}, {Load4_value})")   
         if result != 1: 
             logging.error("Error uploading image: Failed to load image from buffer to DMD device")
         else:
@@ -168,9 +168,8 @@ class DLPController:
         """
         
         """
+        pass
         
-    @staticmethod
-    def bool_to_
     def enable_override(self):
         """Enables software override for the DLP device settings and disables mechanical DIP switches. Class _set_sw_override_enable"""
         if self._dll.GetSWOverrideEnable(0) != 1:
