@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 from PIL import Image, ImageTk
 from dlpcontroller import DLPControllerActiveX, DLPControllerDLL
 from customexceptions import EnableSWOverrideError, SetSWOverrideValueError
@@ -19,6 +19,8 @@ class MainWindow(tk.Tk):
         image_label (tk.Label): Label to display the image.
         _interface (str): The current interface being used ('ActiveX' or 'DLL').
         interface_label (tk.Label): Label to display the current interface.
+        selected_image_label (tk.Label): Label to display the selected image.
+        selected_image_path_label (tk.Label): Label to display the path of the selected image.
     """
     def __init__(self):
         """
@@ -70,11 +72,19 @@ class MainWindow(tk.Tk):
         Initializes the user interface.
         """
         self.title("DMD Update Mode GUI")
-        self.geometry("700x500")
+        self.geometry("1200x500")
 
         # Create main frame
         main_frame = tk.Frame(self)
         main_frame.pack(fill=tk.BOTH, expand=True)
+
+        # Create label to display the current interface
+        self.interface_label = tk.Label(main_frame, text=f'Current Interface: {self._interface}')
+        self.interface_label.pack(side=tk.TOP, pady=10, anchor=tk.NW)
+
+        # Create button to switch interface
+        switch_button = tk.Button(main_frame, text='Switch Interface', command=self.switch_interface)
+        switch_button.pack(side=tk.TOP, pady=5, anchor=tk.NW)
 
         # Create button frame
         button_frame = tk.Frame(main_frame)
@@ -86,30 +96,30 @@ class MainWindow(tk.Tk):
             button = tk.Button(button_frame, text=text, command=lambda t=text: self.button_clicked(t))
             button.pack(side=tk.TOP, pady=5)
 
-        # Create label frame
-        label_frame = tk.Frame(main_frame)
-        label_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
+        # Create label frame for selected image and its path
+        selected_image_frame = tk.Frame(main_frame)
+        selected_image_frame.pack(side=tk.RIGHT, padx=10)
 
-        # Create label for the most recently clicked button
-        self.label = tk.Label(label_frame, text='Current Update Mode: None')
-        self.label.pack(side=tk.TOP, pady=10)
+        # Create label for selected image
+        self.selected_image_label = tk.Label(selected_image_frame, text="Selected Image")
+        self.selected_image_label.pack(side=tk.TOP, pady=5)
+
+        # Create label for selected image path
+        self.selected_image_path_label = tk.Label(selected_image_frame, text="")
+        self.selected_image_path_label.pack(side=tk.TOP, pady=5)
 
         # Create a frame for the image area
-        self.image_frame = tk.Frame(label_frame, relief=tk.SUNKEN, borderwidth=2)
-        self.image_frame.pack(fill=tk.BOTH, expand=True)
+        self.image_frame = tk.Frame(main_frame, relief=tk.SUNKEN, borderwidth=2)
+        self.image_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         # Create label for image
         self.image_label = tk.Label(self.image_frame, text="Image Area")
         self.image_label.pack(fill=tk.BOTH, expand=True)
-        
-        # Create a label to display the current interface
-        self.interface_label = tk.Label(label_frame, text=f'Current Interface: {self._interface}')
-        self.interface_label.pack(side=tk.TOP, pady=10, anchor=tk.NW)
 
-        # Create a button to switch interface
-        switch_button = tk.Button(label_frame, text='Switch Interface', command=self.switch_interface)
-        switch_button.pack(side=tk.TOP, pady=5, anchor=tk.NW)
-
+        # Create a button to load an image
+        load_image_button = tk.Button(button_frame, text='Load Image', command=self.load_image_button_clicked)
+        load_image_button.pack(side=tk.TOP, pady=5)
+    
     def button_clicked(self, button_text):
         """
         Handles button click events.
@@ -137,7 +147,6 @@ class MainWindow(tk.Tk):
                 logger.error(f"Error setting update mode: {exception}")
                 self.show_error_message_box(str(exception))
         self._curr_mode = button_text
-        self.label.config(text=f'Current Update Mode: {self._curr_mode}')
         self.load_image(button_text)
 
     def load_image(self, button_text):
@@ -176,7 +185,7 @@ class MainWindow(tk.Tk):
         else:
             self._interface = 'ActiveX'
             logger.debug("Switching interface to ActiveX")
-            
+                        
         # Delete current controller instance
         del self._controller
         
@@ -201,6 +210,46 @@ class MainWindow(tk.Tk):
         
         # Update interface label
         self.interface_label.config(text=f'Current Interface: {self._interface}')
+        
+    def load_image_button_clicked(self):
+        """
+        Handles the click event of the load image button.
+        """
+        # Prompt user to select an image file
+        image_path = filedialog.askopenfilename(filetypes=[("Image Files", "*.jpg;*.jpeg;*.png;*.bmp")])
+        
+        if image_path:
+            try:
+                # Load image into DMD
+                self._controller.load_image_buffer(image_path)
+                logger.debug("Image loaded into DMD successfully.")
+                
+                # Display the loaded image
+                self.display_selected_image(image_path)
+                
+            except Exception as e:
+                logger.error(f"Error loading image: {e}")
+                self.show_error_message_box(f"Error loading image: {e}")
+    
+    def display_selected_image(self, image_path):
+        """
+        Display the selected image.
+
+        Args:
+            image_path (str): The path of the selected image.
+        """
+        try:
+            # Display the selected image
+            image = Image.open(image_path)
+            photo = ImageTk.PhotoImage(image)
+            self.selected_image_label.config(image=photo)
+            self.selected_image_label.image = photo  # Keep a reference to prevent garbage collection
+            
+            # Display the path of the selected image
+            self.selected_image_path_label.config(text=f"Selected Image Path: {image_path}")
+        except FileNotFoundError:
+            logger.error(f"Selected image file not found: {image_path}")
+            self.show_error_message_box(f"Selected image file not found: {image_path}")
 
 if __name__ == '__main__':
     app = MainWindow()

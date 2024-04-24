@@ -3,6 +3,7 @@ import ctypes
 import logging
 from customexceptions import *
 from PyQt5 import QtWidgets, QAxContainer
+import numpy as np
 import sys
 
 logging.basicConfig(filename='DMDGui.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -213,6 +214,12 @@ class DLPControllerDLL(DLPControllerBase):
 
         self._dll.GetSWOverrideValue.argtypes = []
         self._dll.GetSWOverrideValue.restype = ctypes.c_short
+
+        self._dll.LoadData.argtypes = [ctypes.POINTER(ctypes.c_ubyte), ctypes.c_uint, ctypes.c_short, ctypes.c_short]
+        self._dll.LoadData.restype = ctypes.c_short
+
+        self._dll.GetDMDTYPE.argtypes = [ctypes.c_short]
+        self._dll.GetDMDTYPE.restype = ctypes.c_short
         
         logging.debug("Finished setting up DLL API")
 
@@ -242,3 +249,27 @@ class DLPControllerDLL(DLPControllerBase):
         except EnableSWOverrideError as e:
             logging.error(e)
             raise e
+        
+    def load_image_buffer(self, image_path):
+        """
+        Loads image data from a file to the DLP device buffer using DLL.
+
+        Args:
+            image_path (str): Path to the image file.
+        """
+        # Load image data
+        image_data = np.fromfile(image_path, dtype=np.uint8)
+        image_length = len(image_data)
+        
+        # Get DMD type
+        device_number = 0  # You might need to adjust this based on your setup
+        dmd_type = self._dll.GetDMDTYPE(ctypes.c_short(device_number))
+        
+        # Call LoadData function
+        result = self._dll.LoadData(image_data.ctypes.data_as(ctypes.POINTER(ctypes.c_ubyte)), 
+                                     ctypes.c_uint(image_length), ctypes.c_short(dmd_type), ctypes.c_short(device_number))
+        
+        if result != 1:
+            logging.error("Error uploading image: Failed to load image data to DMD device buffer")
+        else:
+            logging.debug("Loaded image data from file to DMD device buffer")
