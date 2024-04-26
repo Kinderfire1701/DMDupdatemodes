@@ -1402,3 +1402,94 @@
 2024-04-24 10:28:14,990 - DEBUG - Finished setting up ActiveX API
 2024-04-24 10:28:14,995 - DEBUG - Software override enabled: 1
 2024-04-24 10:28:14,995 - DEBUG - Updates enabled successfully.
+2024-04-26 07:29:12,390 - DEBUG - Finished setting up ActiveX API
+2024-04-26 07:29:12,390 - DEBUG - Attempting to connect to USB device
+2024-04-26 07:29:12,400 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 07:29:27,660 - DEBUG - Finished setting up ActiveX API
+2024-04-26 07:29:27,660 - DEBUG - Attempting to connect to USB device
+2024-04-26 07:29:27,671 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:44:20,913 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:44:20,913 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:44:20,925 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:44:20,939 - ERROR - Error uploading image: Failed to load buffer with image: C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.png
+2024-04-26 08:44:21,291 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:44:43,818 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:44:43,818 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:44:43,829 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:44:43,840 - ERROR - Error uploading image: Failed to load buffer with image: C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.png
+2024-04-26 08:44:44,181 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:49:06,810 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:49:06,810 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:49:06,819 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:49:10,244 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:49:10,340 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:49:10,388 - DEBUG - Reset failed
+2024-04-26 08:49:10,434 - DEBUG - Reset failed
+2024-04-26 08:49:10,874 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:49:18,957 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:49:18,957 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:49:18,967 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:49:22,365 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:49:22,461 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:49:22,513 - DEBUG - Reset failed
+2024-04-26 08:49:22,561 - DEBUG - Reset failed
+2024-04-26 08:49:22,993 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:49:28,866 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:49:28,866 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:49:28,878 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:49:32,291 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:49:32,406 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:49:32,457 - DEBUG - Reset failed
+2024-04-26 08:49:32,503 - DEBUG - Reset failed
+2024-04-26 08:49:32,938 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:49:45,547 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:49:45,547 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:49:45,558 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:49:48,948 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:49:49,064 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:49:49,101 - DEBUG - Reset failed
+2024-04-26 08:49:49,148 - DEBUG - Reset failed
+2024-04-26 08:49:49,585 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:50:11,202 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:50:11,202 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:50:11,214 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:50:14,624 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:50:14,721 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:50:14,768 - DEBUG - Reset failed
+2024-04-26 08:50:14,815 - DEBUG - Reset failed
+2024-04-26 08:50:15,261 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:50:43,958 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:50:43,959 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:50:43,968 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:50:47,331 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:50:47,455 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:50:47,498 - DEBUG - Reset failed
+2024-04-26 08:50:47,547 - DEBUG - Reset failed
+2024-04-26 08:50:48,413 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:51:21,278 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:51:21,279 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:51:21,290 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:51:24,665 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:51:24,775 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:51:24,809 - DEBUG - Reset failed
+2024-04-26 08:51:25,646 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:51:34,051 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:51:34,052 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:51:34,061 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:51:37,452 - DEBUG - Image uploaded from C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:51:37,578 - DEBUG - Loaded image from ActiveX buffer to DMD device
+2024-04-26 08:51:37,627 - DEBUG - Reset failed
+2024-04-26 08:51:38,468 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:53:04,273 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:53:04,274 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:53:04,284 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:53:04,294 - ERROR - Error uploading image: Failed to load buffer with image: C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:53:04,637 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:54:00,350 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:54:00,350 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:54:00,360 - DEBUG - Device 1 of 1 successfully connected
+2024-04-26 08:54:00,372 - ERROR - Error uploading image: Failed to load buffer with image: C:\Users\Sid\.venv\updatemodes\DMDupdatemodes\frame_0001.jpg
+2024-04-26 08:54:00,710 - DEBUG - Cleared DMD for block 17 with Reset set to True
+2024-04-26 08:56:40,448 - DEBUG - Finished setting up ActiveX API
+2024-04-26 08:56:40,448 - DEBUG - Attempting to connect to USB device
+2024-04-26 08:56:40,456 - DEBUG - Device 1 of 0 successfully connected

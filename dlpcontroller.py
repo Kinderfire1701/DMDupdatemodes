@@ -155,6 +155,17 @@ class DLPControllerActiveX(DLPControllerBase):
         """  
         return self._activex.dynamicCall("GetDMDTYPE()")
     
+    def set_mirrors_neutral(self):
+        """
+        Sets the position of all mirrors to neutral "Parked" state.
+        """  
+        result = self._activex.dynamicCall("FloatMirrors()")
+        if result != 1: 
+            logging.error(f"Error setting mirrors to neutral position")
+        else:
+            logging.debug(f"Successfully set mirrors to neutral position")
+        return bool(result)
+        
     def load_image_to_buffer(self, image_path, mirrored = False):
         """
         Converts a single image from several formats (bmp, jpg, gif, or bin) to a binary file and
@@ -174,7 +185,8 @@ class DLPControllerActiveX(DLPControllerBase):
             raise exception
         else:
             logging.debug(f"Image uploaded from {image_path}")
-            
+        return bool(result)
+        
     def load_image_to_movie_buffer(self, image_path, buffer, mirrored = False):
         """
         Converts a single image from several formats (bmp, jpg, gif, or bin) to a binary file and
@@ -191,7 +203,8 @@ class DLPControllerActiveX(DLPControllerBase):
             raise exception
         else:
             logging.debug(f"Image uploaded as frame in movie")
-    
+        return bool(result)
+        
     def load_bin_to_movie_buffer(self, buffer):
         """
         Loads pre-converted binary file in bin format as one frame in a "movie" (a sequence of frames) to the image buffer of the ActiveX controller.
@@ -203,11 +216,12 @@ class DLPControllerActiveX(DLPControllerBase):
         """
         result = self._activex.dynamicCall(f"MemToFrameBuffer({buffer})")
         if result != 1: 
-            logging.error(f"Error uploading image as frame in movie")
+            logging.error("Error uploading image as frame in movie")
             raise exception
         else:
-            logging.debug(f"Image uploaded as frame in movie")
-            
+            logging.debug("Image uploaded as frame in movie")
+        return bool(result)
+        
     def load_buffer_to_DMD(self, block_number = 17, reset = True, Load4 = False):
         """
         Loads image from ActiveX controller buffer to a block of mirrors or all mirrors on DMD device.
@@ -227,8 +241,22 @@ class DLPControllerActiveX(DLPControllerBase):
             logging.error("Error uploading image: Failed to load image from buffer to DMD device")
         else:
             logging.debug("Loaded image from ActiveX buffer to DMD device")
-            
-    def clear(self, block_number = 17, reset = True)
+        return bool(result)
+        
+    def reset(self, block_number = 17):
+        """
+        Resets (writes) image with a mirror clocking pulse, thereby transferring the memory state to the mirror state.
+            block_number (int): Integers 1 to 16 designate blocks of mirrors on the DMD. This selects which block is updated.
+            If set greater than 16, then the image is globally loaded to the whole DMD
+        """
+        result = self._activex.dynamicCall(f"Reset({block_number})")   
+        if result != 1: 
+            logging.error("Reset performed, mirror state written with memory state")
+        else:
+            logging.debug("Reset failed")
+        return bool(result)
+        
+    def clear(self, block_number = 17, reset = True):
         """
         Clears DMD device of image either globally for a specified block of mirrors.
         
@@ -247,6 +275,7 @@ class DLPControllerActiveX(DLPControllerBase):
                 logging.debug(f"Cleared DMD for block {block_number} with Reset set to {reset}")
             else: 
                 logging.debug(f"Cleared DMD of global content with Reset set to {reset}")
+        return bool(result)
     
     def convert_image_to_bin(self, image_path, save_path, mirrored = False):
         """
@@ -265,6 +294,7 @@ class DLPControllerActiveX(DLPControllerBase):
             logging.debug(f"Image located at {image_path} converted to binary and saved at {save_path}")
         else: 
             logging.debug(f"Failed to convert image located at {image_path} to binary")
+        return bool(result)
             
     def set_conversion_threshold(threshold):
         """
