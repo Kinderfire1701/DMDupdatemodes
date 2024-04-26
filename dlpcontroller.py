@@ -137,10 +137,28 @@ class DLPControllerActiveX(DLPControllerBase):
         except ConnectDeviceError as e:
             logging.debug(e)
     
-    def load_image_buffer(self, image_path, mirrored = False):
+    def check_device(self):
         """
-        Converts image from several formats (bmp, jpg, gif, or bin) to a binary file and
-        then loads binary file to image buffer of ActiveX controller
+        Checks to see if the DMD device is connected. Returns True if connected and False if not connected.
+        """  
+        return bool(self._activex.dynamicCall("IsDeviceAttached()"))
+        
+    def check_USB_speed(self):
+        """
+        Checks to see the speed of the USB connection. Returns True if using USB 2.0 and False if using USB 1.1
+        """  
+        return bool(self._activex.dynamicCall("GetSpeedMode()"))
+        
+    def check_DMD_type(self):
+        """
+        Checks the type of DMD device connected. Returns 0 for DLP9500, 1 for DLP7000, 7 for DLP650NIR, and 15 if DMD cannot be recognized.
+        """  
+        return self._activex.dynamicCall("GetDMDTYPE()")
+    
+    def load_image_to_buffer(self, image_path, mirrored = False):
+        """
+        Converts a single image from several formats (bmp, jpg, gif, or bin) to a binary file and
+        then loads binary file as a single frame to the image buffer of the ActiveX controller
         
         Args:
             image_path (str): Location of binary image in bmp, jpg, gif, or bin format.
@@ -156,8 +174,41 @@ class DLPControllerActiveX(DLPControllerBase):
             raise exception
         else:
             logging.debug(f"Image uploaded from {image_path}")
+            
+    def load_image_to_movie_buffer(self, image_path, buffer, mirrored = False):
+        """
+        Converts a single image from several formats (bmp, jpg, gif, or bin) to a binary file and
+        then loads binary file as one frame in a "movie" (a sequence of frames) to the image buffer of the ActiveX controller.
+        Args:
+            image_path (str): Location of binary image in bmp, jpg, gif, or bin format.
+            bufer (ctypes array): Memory buffer as a ctype array of unsigned (0 to 255) short (16-bit value) int
+            mirrored (bool): If set to True, a mirrored image will also be prepared for the buffer.
         
-    def load_buffer_DMD(self, block_number = 17, reset = True, Load4 = False):
+        """
+        result = self._activex.dynamicCall(f"LoadImageFileToBuffer({image_path}, {buffer}, {mirror_value})")
+        if result != 1: 
+            logging.error(f"Error uploading image as frame in movie")
+            raise exception
+        else:
+            logging.debug(f"Image uploaded as frame in movie")
+    
+    def load_bin_to_movie_buffer(self, buffer):
+        """
+        Loads pre-converted binary file in bin format as one frame in a "movie" (a sequence of frames) to the image buffer of the ActiveX controller.
+        Args:
+            bin_path (str): Location of pre-converted binary image in bin format.
+            bufer (ctypes array): Memory buffer as a ctype array of unsigned (0 to 255) short (16-bit value) int
+            mirrored (bool): If set to True, a mirrored image will also be prepared for the buffer.
+        
+        """
+        result = self._activex.dynamicCall(f"MemToFrameBuffer({buffer})")
+        if result != 1: 
+            logging.error(f"Error uploading image as frame in movie")
+            raise exception
+        else:
+            logging.debug(f"Image uploaded as frame in movie")
+            
+    def load_buffer_to_DMD(self, block_number = 17, reset = True, Load4 = False):
         """
         Loads image from ActiveX controller buffer to a block of mirrors or all mirrors on DMD device.
         
@@ -177,13 +228,52 @@ class DLPControllerActiveX(DLPControllerBase):
         else:
             logging.debug("Loaded image from ActiveX buffer to DMD device")
             
-           
+    def clear(self, block_number = 17, reset = True)
+        """
+        Clears DMD device of image either globally for a specified block of mirrors.
         
-    def load_movie_buffer(self):
+        Args:
+            block_number (int): Integers 1 to 16 designate blocks of mirrors on the DMD. This selects which block is cleared.
+            If set greater than 16, then the DMD contents are globally cleared.
+            reset (bool): If enabled, then a writes (resets) a micromirror clocking pulse on the specified blocks.
+        """
+        reset_value = int(reset)
+        result = self._activex.dynamicCall(f"Clear({block_number}, {reset_value})")
+        
+        if result != 1: 
+            logging.error("Error clearing DMD content")
+        else:
+            if block_number > 16:
+                logging.debug(f"Cleared DMD for block {block_number} with Reset set to {reset}")
+            else: 
+                logging.debug(f"Cleared DMD of global content with Reset set to {reset}")
+    
+    def convert_image_to_bin(self, image_path, save_path, mirrored = False):
+        """
+        Converts image from several formats (bmp, jpg, or gif) to a binary file and saves it 
+        to a specified location.
+        
+        Args:
+            image_path (str): Location of binary image in bmp, jpg, or gif format.
+            save_path (str): Location where binary image is saved.
+            mirrored (bool): If set to True, a mirrored image will also be prepared for the buffer.
         """
         
+        mirror_value = int(mirrored) # any value other than 0 will enable the mirror feature, not specifically 1
+        result = self._activex.dynamicCall(f"ConvertImage({image_path}, {save_path}, {mirror_value})")
+        if result != 1:        
+            logging.debug(f"Image located at {image_path} converted to binary and saved at {save_path}")
+        else: 
+            logging.debug(f"Failed to convert image located at {image_path} to binary")
+            
+    def set_conversion_threshold(threshold):
         """
-        pass
+        Sets the threshold for conversion from 8-bit RGB files (three values from 0 to 256) to binary files (values 0 or 1).
+        Example: A threshold of 127 will convert from RGB to binary using RGB (127,127,127) as the threhsold.
+        """
+        self._activex.dynamicCall(f"SetConversionThreshold({threshold})")
+        
+
 
 class DLPControllerDLL(DLPControllerBase):
     """

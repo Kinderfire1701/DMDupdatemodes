@@ -905,3 +905,500 @@
 2024-04-22 07:14:26,176 - DEBUG - Finished setting up DLL API
 2024-04-22 07:14:27,506 - DEBUG - Finished setting up ActiveX API
 2024-04-22 07:14:27,511 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:30:24,146 - DEBUG - Attempting to setup API for use
+2024-04-22 07:30:24,148 - DEBUG - Finished setting up DLL API
+2024-04-22 07:30:24,562 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:30:24,565 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:41:25,696 - DEBUG - Attempting to setup API for use
+2024-04-22 07:41:25,698 - DEBUG - Finished setting up DLL API
+2024-04-22 07:41:25,772 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:41:25,778 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:43:10,679 - DEBUG - Attempting to setup API for use
+2024-04-22 07:43:10,680 - DEBUG - Finished setting up DLL API
+2024-04-22 07:43:10,749 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:43:10,754 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:50:30,809 - DEBUG - Attempting to setup API for use
+2024-04-22 07:50:30,810 - DEBUG - Finished setting up DLL API
+2024-04-22 07:50:30,883 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:50:30,887 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:50:42,300 - DEBUG - Attempting to setup API for use
+2024-04-22 07:50:42,301 - DEBUG - Finished setting up DLL API
+2024-04-22 07:50:42,369 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:50:42,373 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:51:12,562 - DEBUG - Attempting to setup API for use
+2024-04-22 07:51:12,563 - DEBUG - Finished setting up DLL API
+2024-04-22 07:51:12,629 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:51:12,633 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:52:29,079 - DEBUG - Attempting to setup API for use
+2024-04-22 07:52:29,080 - DEBUG - Finished setting up DLL API
+2024-04-22 07:52:29,147 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:52:29,152 - DEBUG - Attempting to connect to USB device
+2024-04-22 07:53:30,856 - DEBUG - Attempting to setup API for use
+2024-04-22 07:53:30,857 - DEBUG - Finished setting up DLL API
+2024-04-22 07:53:30,927 - DEBUG - Finished setting up ActiveX API
+2024-04-22 07:53:30,931 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:34:17,088 - DEBUG - Attempting to setup API for use
+2024-04-23 10:34:17,142 - DEBUG - Finished setting up DLL API
+2024-04-23 10:34:17,244 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:34:17,249 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:34:17,251 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:38:54,374 - DEBUG - Attempting to setup API for use
+2024-04-23 10:38:54,376 - DEBUG - Finished setting up DLL API
+2024-04-23 10:38:54,449 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:38:54,454 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:38:54,455 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:39:37,035 - DEBUG - Attempting to setup API for use
+2024-04-23 10:39:37,037 - DEBUG - Finished setting up DLL API
+2024-04-23 10:39:37,109 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:39:37,114 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:39:37,116 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:40:41,411 - DEBUG - Attempting to setup API for use
+2024-04-23 10:40:41,413 - DEBUG - Finished setting up DLL API
+2024-04-23 10:40:41,478 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:40:41,482 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:40:41,484 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:46:25,967 - DEBUG - Attempting to setup API for use
+2024-04-23 10:46:25,969 - DEBUG - Finished setting up DLL API
+2024-04-23 10:46:26,043 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:46:26,048 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:46:26,050 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:47:24,244 - DEBUG - Attempting to setup API for use
+2024-04-23 10:47:24,245 - DEBUG - Finished setting up DLL API
+2024-04-23 10:47:24,324 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:47:24,328 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:47:24,331 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:53:58,601 - DEBUG - Attempting to setup API for use
+2024-04-23 10:53:58,602 - DEBUG - Finished setting up DLL API
+2024-04-23 10:53:58,670 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:53:58,673 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:53:58,675 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:54:11,828 - DEBUG - Attempting to setup API for use
+2024-04-23 10:54:11,829 - DEBUG - Finished setting up DLL API
+2024-04-23 10:54:11,901 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:54:11,906 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:54:11,909 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:55:33,673 - DEBUG - Attempting to setup API for use
+2024-04-23 10:55:33,674 - DEBUG - Finished setting up DLL API
+2024-04-23 10:55:33,744 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:55:33,747 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:55:33,756 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:55:36,668 - DEBUG - Attempting to setup API for use
+2024-04-23 10:55:36,670 - DEBUG - Finished setting up DLL API
+2024-04-23 10:55:36,741 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:55:36,745 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:55:36,756 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:58:03,800 - DEBUG - Attempting to setup API for use
+2024-04-23 10:58:03,802 - DEBUG - Finished setting up DLL API
+2024-04-23 10:58:03,866 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:58:03,871 - DEBUG - Attempting to connect to USB device
+2024-04-23 10:58:03,880 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 10:58:07,398 - DEBUG - Initializing the main window.
+2024-04-23 10:58:07,470 - DEBUG - Attempting to setup API for use
+2024-04-23 10:58:07,471 - DEBUG - Finished setting up DLL API
+2024-04-23 10:58:07,534 - DEBUG - Finished setting up ActiveX API
+2024-04-23 10:58:07,540 - DEBUG - Updates enabled successfully.
+2024-04-23 10:58:09,674 - DEBUG - Button clicked: Single
+2024-04-23 10:58:09,678 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 10:58:23,788 - DEBUG - Software override enabled: 0
+2024-04-23 11:04:01,971 - DEBUG - Attempting to setup API for use
+2024-04-23 11:04:01,973 - DEBUG - Finished setting up DLL API
+2024-04-23 11:04:02,039 - DEBUG - Finished setting up ActiveX API
+2024-04-23 11:04:02,043 - DEBUG - Attempting to connect to USB device
+2024-04-23 11:04:02,053 - DEBUG - Device 1 of 1 successfully connected
+2024-04-23 11:04:05,506 - DEBUG - Initializing the main window.
+2024-04-23 11:04:05,546 - DEBUG - Attempting to setup API for use
+2024-04-23 11:04:05,548 - DEBUG - Finished setting up DLL API
+2024-04-23 11:04:05,615 - DEBUG - Finished setting up ActiveX API
+2024-04-23 11:04:05,619 - DEBUG - Updates enabled successfully.
+2024-04-23 11:04:07,412 - DEBUG - Button clicked: Global
+2024-04-23 11:04:07,416 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:04:12,214 - DEBUG - Button clicked: Single
+2024-04-23 11:04:12,219 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:05:12,661 - DEBUG - Software override enabled: 0
+2024-04-23 11:05:15,276 - DEBUG - Initializing the main window.
+2024-04-23 11:05:15,313 - DEBUG - Attempting to setup API for use
+2024-04-23 11:05:15,315 - DEBUG - Finished setting up DLL API
+2024-04-23 11:05:15,380 - DEBUG - Finished setting up ActiveX API
+2024-04-23 11:05:15,384 - DEBUG - Updates enabled successfully.
+2024-04-23 11:05:18,143 - DEBUG - Button clicked: Single
+2024-04-23 11:05:18,147 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:05:29,182 - DEBUG - Button clicked: Dual
+2024-04-23 11:05:29,186 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:05:30,213 - DEBUG - Button clicked: Single
+2024-04-23 11:05:30,218 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:37,480 - DEBUG - Software override enabled: 0
+2024-04-23 11:06:40,135 - DEBUG - Initializing the main window.
+2024-04-23 11:06:40,178 - DEBUG - Attempting to setup API for use
+2024-04-23 11:06:40,179 - DEBUG - Finished setting up DLL API
+2024-04-23 11:06:40,246 - DEBUG - Finished setting up ActiveX API
+2024-04-23 11:06:40,250 - DEBUG - Updates enabled successfully.
+2024-04-23 11:06:41,679 - DEBUG - Button clicked: Single
+2024-04-23 11:06:41,686 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:41,686 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:44,653 - DEBUG - Button clicked: Dual
+2024-04-23 11:06:44,660 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:44,660 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:46,496 - DEBUG - Button clicked: Quad
+2024-04-23 11:06:46,503 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:46,503 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:48,086 - DEBUG - Button clicked: Global
+2024-04-23 11:06:48,091 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:48,091 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:49,182 - DEBUG - Button clicked: Single
+2024-04-23 11:06:49,189 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:49,189 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:50,655 - DEBUG - Button clicked: Dual
+2024-04-23 11:06:50,662 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:50,662 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:51,200 - DEBUG - Button clicked: Quad
+2024-04-23 11:06:51,205 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:51,205 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:52,622 - DEBUG - Button clicked: Dual
+2024-04-23 11:06:52,629 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:52,629 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:52,939 - DEBUG - Button clicked: Single
+2024-04-23 11:06:52,946 - DEBUG - Software override value set to -0b1
+2024-04-23 11:06:52,946 - ERROR - Failed to set software switch override value. Error code: 1. Error message: 0
+2024-04-23 11:06:54,513 - DEBUG - Software override enabled: 0
+2024-04-23 11:21:47,932 - DEBUG - Initializing the main window.
+2024-04-23 11:21:47,976 - DEBUG - Attempting to setup API for use
+2024-04-23 11:21:47,977 - DEBUG - Finished setting up DLL API
+2024-04-23 11:21:48,043 - DEBUG - Finished setting up ActiveX API
+2024-04-23 11:21:48,048 - DEBUG - Updates enabled successfully.
+2024-04-23 11:21:49,652 - DEBUG - Button clicked: Single
+2024-04-23 11:21:49,661 - DEBUG - Software override value set to 0b0
+2024-04-23 11:21:49,661 - DEBUG - Setting update mode to Single
+2024-04-23 11:21:54,347 - DEBUG - Button clicked: Dual
+2024-04-23 11:21:54,352 - DEBUG - Software override value set to 0b0
+2024-04-23 11:21:54,352 - DEBUG - Setting update mode to Dual
+2024-04-23 11:21:56,268 - DEBUG - Button clicked: Quad
+2024-04-23 11:21:56,272 - DEBUG - Software override value set to 0b0
+2024-04-23 11:21:56,272 - DEBUG - Setting update mode to Quad
+2024-04-23 11:21:57,131 - DEBUG - Button clicked: Global
+2024-04-23 11:21:57,137 - DEBUG - Software override value set to 0b0
+2024-04-23 11:21:57,137 - DEBUG - Setting update mode to Global
+2024-04-23 11:23:03,450 - DEBUG - Initializing the main window.
+2024-04-23 11:23:03,489 - DEBUG - Attempting to setup API for use
+2024-04-23 11:23:03,490 - DEBUG - Finished setting up DLL API
+2024-04-23 11:23:03,556 - DEBUG - Finished setting up ActiveX API
+2024-04-23 11:23:03,561 - DEBUG - Updates enabled successfully.
+2024-04-23 11:23:05,102 - DEBUG - Button clicked: Global
+2024-04-23 11:23:05,110 - DEBUG - Software override value set to 0b100000
+2024-04-23 11:23:05,110 - DEBUG - Setting update mode to Global
+2024-04-23 11:23:05,605 - DEBUG - Button clicked: Single
+2024-04-23 11:23:05,613 - DEBUG - Software override value set to 0b0
+2024-04-23 11:23:05,613 - DEBUG - Setting update mode to Single
+2024-04-23 11:23:07,955 - DEBUG - Button clicked: Dual
+2024-04-23 11:23:07,963 - DEBUG - Software override value set to 0b10000
+2024-04-23 11:23:07,963 - DEBUG - Setting update mode to Dual
+2024-04-23 11:23:08,540 - DEBUG - Button clicked: Quad
+2024-04-23 11:23:08,549 - DEBUG - Software override value set to 0b110000
+2024-04-23 11:23:08,549 - DEBUG - Setting update mode to Quad
+2024-04-23 11:23:09,644 - DEBUG - Button clicked: Global
+2024-04-23 11:23:09,652 - DEBUG - Software override value set to 0b100000
+2024-04-23 11:23:09,652 - DEBUG - Setting update mode to Global
+2024-04-23 11:23:10,300 - DEBUG - Button clicked: Single
+2024-04-23 11:23:10,308 - DEBUG - Software override value set to 0b0
+2024-04-23 11:23:10,308 - DEBUG - Setting update mode to Single
+2024-04-23 16:36:45,983 - DEBUG - Initializing the main window.
+2024-04-23 16:36:46,180 - DEBUG - Finished setting up ActiveX API
+2024-04-23 16:36:46,185 - DEBUG - Software override enabled: 1
+2024-04-23 16:36:46,185 - DEBUG - Updates enabled successfully.
+2024-04-23 16:36:48,844 - DEBUG - Button clicked: Global
+2024-04-23 16:36:48,852 - DEBUG - Software override value set to 0b100000
+2024-04-23 16:36:48,852 - DEBUG - Setting update mode to Global
+2024-04-23 16:36:51,042 - DEBUG - Button clicked: Single
+2024-04-23 16:36:51,050 - DEBUG - Software override value set to 0b0
+2024-04-23 16:36:51,050 - DEBUG - Setting update mode to Single
+2024-04-23 16:36:51,896 - DEBUG - Button clicked: Dual
+2024-04-23 16:36:51,905 - DEBUG - Software override value set to 0b10000
+2024-04-23 16:36:51,905 - DEBUG - Setting update mode to Dual
+2024-04-23 16:36:52,512 - DEBUG - Button clicked: Quad
+2024-04-23 16:36:52,518 - DEBUG - Software override value set to 0b110000
+2024-04-23 16:36:52,518 - DEBUG - Setting update mode to Quad
+2024-04-23 16:36:53,946 - DEBUG - Button clicked: Global
+2024-04-23 16:36:53,955 - DEBUG - Software override value set to 0b100000
+2024-04-23 16:36:53,955 - DEBUG - Setting update mode to Global
+2024-04-23 16:36:54,919 - DEBUG - Button clicked: Single
+2024-04-23 16:36:54,927 - DEBUG - Software override value set to 0b0
+2024-04-23 16:36:54,928 - DEBUG - Setting update mode to Single
+2024-04-23 16:36:55,787 - DEBUG - Switching interface to DLL
+2024-04-23 16:36:55,791 - DEBUG - Attempting to setup DLL API for use
+2024-04-23 16:36:55,792 - DEBUG - Finished setting up DLL API
+2024-04-23 16:36:55,795 - DEBUG - Software override enabled: 1
+2024-04-23 16:36:55,796 - DEBUG - Updates enabled successfully.
+2024-04-23 16:36:57,288 - DEBUG - Button clicked: Single
+2024-04-23 16:36:58,617 - DEBUG - Button clicked: Dual
+2024-04-23 16:36:58,623 - DEBUG - Software override value set to -0b1
+2024-04-23 16:36:58,623 - DEBUG - Setting update mode to Dual
+2024-04-23 16:36:59,282 - DEBUG - Button clicked: Quad
+2024-04-23 16:36:59,289 - DEBUG - Software override value set to -0b1
+2024-04-23 16:36:59,289 - DEBUG - Setting update mode to Quad
+2024-04-23 16:37:00,498 - DEBUG - Button clicked: Global
+2024-04-23 16:37:00,506 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:00,506 - DEBUG - Setting update mode to Global
+2024-04-23 16:37:01,449 - DEBUG - Button clicked: Single
+2024-04-23 16:37:01,455 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:01,455 - DEBUG - Setting update mode to Single
+2024-04-23 16:37:01,830 - DEBUG - Button clicked: Dual
+2024-04-23 16:37:01,835 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:01,836 - DEBUG - Setting update mode to Dual
+2024-04-23 16:37:02,356 - DEBUG - Button clicked: Quad
+2024-04-23 16:37:02,364 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:02,364 - DEBUG - Setting update mode to Quad
+2024-04-23 16:37:02,749 - DEBUG - Button clicked: Dual
+2024-04-23 16:37:02,756 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:02,756 - DEBUG - Setting update mode to Dual
+2024-04-23 16:37:03,108 - DEBUG - Button clicked: Single
+2024-04-23 16:37:03,115 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:03,116 - DEBUG - Setting update mode to Single
+2024-04-23 16:37:03,393 - DEBUG - Button clicked: Global
+2024-04-23 16:37:03,399 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:03,399 - DEBUG - Setting update mode to Global
+2024-04-23 16:37:08,200 - DEBUG - Button clicked: Single
+2024-04-23 16:37:08,206 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:08,206 - DEBUG - Setting update mode to Single
+2024-04-23 16:37:08,905 - DEBUG - Button clicked: Dual
+2024-04-23 16:37:08,912 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:08,912 - DEBUG - Setting update mode to Dual
+2024-04-23 16:37:10,068 - DEBUG - Button clicked: Global
+2024-04-23 16:37:10,074 - DEBUG - Software override value set to -0b1
+2024-04-23 16:37:10,074 - DEBUG - Setting update mode to Global
+2024-04-23 16:37:14,803 - DEBUG - Switching interface to ActiveX
+2024-04-23 16:37:14,819 - DEBUG - Finished setting up ActiveX API
+2024-04-23 16:37:14,823 - DEBUG - Software override enabled: 1
+2024-04-23 16:37:14,823 - DEBUG - Updates enabled successfully.
+2024-04-23 16:37:15,947 - DEBUG - Button clicked: Single
+2024-04-23 16:37:15,957 - DEBUG - Software override value set to 0b0
+2024-04-23 16:37:15,957 - DEBUG - Setting update mode to Single
+2024-04-23 16:37:17,516 - DEBUG - Button clicked: Dual
+2024-04-23 16:37:17,525 - DEBUG - Software override value set to 0b10000
+2024-04-23 16:37:17,525 - DEBUG - Setting update mode to Dual
+2024-04-23 16:37:18,918 - DEBUG - Button clicked: Quad
+2024-04-23 16:37:18,926 - DEBUG - Software override value set to 0b110000
+2024-04-23 16:37:18,927 - DEBUG - Setting update mode to Quad
+2024-04-23 16:37:19,495 - DEBUG - Button clicked: Global
+2024-04-23 16:37:19,503 - DEBUG - Software override value set to 0b100000
+2024-04-23 16:37:19,503 - DEBUG - Setting update mode to Global
+2024-04-23 16:37:20,254 - DEBUG - Switching interface to DLL
+2024-04-23 16:37:20,257 - DEBUG - Attempting to setup DLL API for use
+2024-04-23 16:37:20,257 - DEBUG - Finished setting up DLL API
+2024-04-23 16:37:20,259 - DEBUG - Software override enabled: 1
+2024-04-23 16:37:20,260 - DEBUG - Updates enabled successfully.
+2024-04-23 16:37:21,664 - DEBUG - Software override enabled: 0
+2024-04-24 09:44:09,140 - DEBUG - Initializing the main window.
+2024-04-24 09:44:09,356 - DEBUG - Finished setting up ActiveX API
+2024-04-24 09:44:09,361 - DEBUG - Software override enabled: 1
+2024-04-24 09:44:09,361 - DEBUG - Updates enabled successfully.
+2024-04-24 09:44:11,714 - DEBUG - Button clicked: Global
+2024-04-24 09:44:11,721 - DEBUG - Software override value set to 0b100000
+2024-04-24 09:44:11,721 - DEBUG - Setting update mode to Global
+2024-04-24 09:44:12,226 - DEBUG - Button clicked: Single
+2024-04-24 09:44:12,234 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:12,234 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:13,666 - DEBUG - Button clicked: Dual
+2024-04-24 09:44:13,673 - DEBUG - Software override value set to 0b10000
+2024-04-24 09:44:13,674 - DEBUG - Setting update mode to Dual
+2024-04-24 09:44:15,205 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:15,213 - DEBUG - Software override value set to 0b110000
+2024-04-24 09:44:15,213 - DEBUG - Setting update mode to Quad
+2024-04-24 09:44:17,257 - DEBUG - Button clicked: Global
+2024-04-24 09:44:17,265 - DEBUG - Software override value set to 0b100000
+2024-04-24 09:44:17,265 - DEBUG - Setting update mode to Global
+2024-04-24 09:44:19,479 - DEBUG - Switching interface to DLL
+2024-04-24 09:44:19,483 - DEBUG - Attempting to setup DLL API for use
+2024-04-24 09:44:19,484 - DEBUG - Finished setting up DLL API
+2024-04-24 09:44:19,487 - DEBUG - Software override enabled: 1
+2024-04-24 09:44:19,487 - DEBUG - Updates enabled successfully.
+2024-04-24 09:44:20,668 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:20,676 - DEBUG - Software override value set to 0b110000
+2024-04-24 09:44:20,676 - DEBUG - Setting update mode to Quad
+2024-04-24 09:44:21,117 - DEBUG - Button clicked: Single
+2024-04-24 09:44:21,125 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:21,125 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:24,821 - DEBUG - Button clicked: Global
+2024-04-24 09:44:24,831 - DEBUG - Software override value set to 0b100000
+2024-04-24 09:44:24,832 - DEBUG - Setting update mode to Global
+2024-04-24 09:44:26,253 - DEBUG - Button clicked: Single
+2024-04-24 09:44:26,262 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:26,262 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:27,852 - DEBUG - Button clicked: Dual
+2024-04-24 09:44:27,860 - DEBUG - Software override value set to 0b10000
+2024-04-24 09:44:27,860 - DEBUG - Setting update mode to Dual
+2024-04-24 09:44:29,892 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:29,901 - DEBUG - Software override value set to 0b110000
+2024-04-24 09:44:29,901 - DEBUG - Setting update mode to Quad
+2024-04-24 09:44:31,715 - DEBUG - Button clicked: Dual
+2024-04-24 09:44:31,723 - DEBUG - Software override value set to 0b10000
+2024-04-24 09:44:31,723 - DEBUG - Setting update mode to Dual
+2024-04-24 09:44:32,366 - DEBUG - Button clicked: Single
+2024-04-24 09:44:32,374 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:32,374 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:33,747 - DEBUG - Button clicked: Global
+2024-04-24 09:44:33,755 - DEBUG - Software override value set to 0b100000
+2024-04-24 09:44:33,755 - DEBUG - Setting update mode to Global
+2024-04-24 09:44:35,287 - DEBUG - Switching interface to ActiveX
+2024-04-24 09:44:35,305 - DEBUG - Finished setting up ActiveX API
+2024-04-24 09:44:35,309 - DEBUG - Software override enabled: 1
+2024-04-24 09:44:35,309 - DEBUG - Updates enabled successfully.
+2024-04-24 09:44:36,597 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:36,606 - DEBUG - Software override value set to 0b110000
+2024-04-24 09:44:36,606 - DEBUG - Setting update mode to Quad
+2024-04-24 09:44:38,202 - DEBUG - Button clicked: Dual
+2024-04-24 09:44:38,210 - DEBUG - Software override value set to 0b10000
+2024-04-24 09:44:38,210 - DEBUG - Setting update mode to Dual
+2024-04-24 09:44:38,690 - DEBUG - Button clicked: Single
+2024-04-24 09:44:38,698 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:38,698 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:39,155 - DEBUG - Button clicked: Global
+2024-04-24 09:44:39,163 - DEBUG - Software override value set to 0b100000
+2024-04-24 09:44:39,163 - DEBUG - Setting update mode to Global
+2024-04-24 09:44:39,734 - DEBUG - Button clicked: Single
+2024-04-24 09:44:39,741 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:39,741 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:40,155 - DEBUG - Button clicked: Dual
+2024-04-24 09:44:40,165 - DEBUG - Software override value set to 0b10000
+2024-04-24 09:44:40,165 - DEBUG - Setting update mode to Dual
+2024-04-24 09:44:40,715 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:40,724 - DEBUG - Software override value set to 0b110000
+2024-04-24 09:44:40,724 - DEBUG - Setting update mode to Quad
+2024-04-24 09:44:41,473 - DEBUG - Switching interface to DLL
+2024-04-24 09:44:41,476 - DEBUG - Attempting to setup DLL API for use
+2024-04-24 09:44:41,476 - DEBUG - Finished setting up DLL API
+2024-04-24 09:44:41,478 - DEBUG - Software override enabled: 1
+2024-04-24 09:44:41,478 - DEBUG - Updates enabled successfully.
+2024-04-24 09:44:42,515 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:43,600 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:44,430 - DEBUG - Button clicked: Dual
+2024-04-24 09:44:44,439 - DEBUG - Software override value set to 0b10000
+2024-04-24 09:44:44,439 - DEBUG - Setting update mode to Dual
+2024-04-24 09:44:46,006 - DEBUG - Button clicked: Single
+2024-04-24 09:44:46,014 - DEBUG - Software override value set to 0b0
+2024-04-24 09:44:46,014 - DEBUG - Setting update mode to Single
+2024-04-24 09:44:47,302 - DEBUG - Button clicked: Global
+2024-04-24 09:44:47,309 - DEBUG - Software override value set to 0b100000
+2024-04-24 09:44:47,309 - DEBUG - Setting update mode to Global
+2024-04-24 09:44:48,588 - DEBUG - Button clicked: Quad
+2024-04-24 09:44:48,595 - DEBUG - Software override value set to 0b110000
+2024-04-24 09:44:48,596 - DEBUG - Setting update mode to Quad
+2024-04-24 09:44:50,594 - DEBUG - Switching interface to ActiveX
+2024-04-24 09:44:50,609 - DEBUG - Finished setting up ActiveX API
+2024-04-24 09:44:50,613 - DEBUG - Software override enabled: 1
+2024-04-24 09:44:50,613 - DEBUG - Updates enabled successfully.
+2024-04-24 10:24:27,063 - DEBUG - Initializing the main window.
+2024-04-24 10:24:27,169 - DEBUG - Finished setting up ActiveX API
+2024-04-24 10:24:27,174 - DEBUG - Software override enabled: 1
+2024-04-24 10:24:27,174 - DEBUG - Updates enabled successfully.
+2024-04-24 10:24:48,315 - DEBUG - Button clicked: Global
+2024-04-24 10:24:48,322 - DEBUG - Software override value set to 0b100000
+2024-04-24 10:24:48,323 - DEBUG - Setting update mode to Global
+2024-04-24 10:24:49,664 - DEBUG - Button clicked: Single
+2024-04-24 10:24:49,671 - DEBUG - Software override value set to 0b0
+2024-04-24 10:24:49,671 - DEBUG - Setting update mode to Single
+2024-04-24 10:24:50,557 - DEBUG - Button clicked: Global
+2024-04-24 10:24:50,566 - DEBUG - Software override value set to 0b100000
+2024-04-24 10:24:50,566 - DEBUG - Setting update mode to Global
+2024-04-24 10:24:53,524 - DEBUG - Image uploaded from C:/Users/Sid/.venv/updatemodes/DMDupdatemodes/Single.jpg
+2024-04-24 10:24:53,524 - DEBUG - Image loaded into DMD successfully.
+2024-04-24 10:25:00,856 - DEBUG - Switching interface to DLL
+2024-04-24 10:25:00,860 - DEBUG - Attempting to setup DLL API for use
+2024-04-24 10:25:00,861 - DEBUG - Finished setting up DLL API
+2024-04-24 10:25:00,863 - DEBUG - Software override enabled: 1
+2024-04-24 10:25:00,863 - DEBUG - Updates enabled successfully.
+2024-04-24 10:25:05,165 - DEBUG - Loaded image data from file to DMD device buffer
+2024-04-24 10:25:05,166 - DEBUG - Image loaded into DMD successfully.
+2024-04-24 10:25:10,212 - DEBUG - Loaded image data from file to DMD device buffer
+2024-04-24 10:25:10,212 - DEBUG - Image loaded into DMD successfully.
+2024-04-24 10:25:13,564 - DEBUG - Software override enabled: 0
+2024-04-24 10:27:40,062 - DEBUG - Initializing the main window.
+2024-04-24 10:27:40,164 - DEBUG - Finished setting up ActiveX API
+2024-04-24 10:27:40,168 - DEBUG - Software override enabled: 1
+2024-04-24 10:27:40,168 - DEBUG - Updates enabled successfully.
+2024-04-24 10:27:42,291 - DEBUG - Switching interface to DLL
+2024-04-24 10:27:42,294 - DEBUG - Attempting to setup DLL API for use
+2024-04-24 10:27:42,296 - DEBUG - Finished setting up DLL API
+2024-04-24 10:27:42,298 - DEBUG - Software override enabled: 1
+2024-04-24 10:27:42,298 - DEBUG - Updates enabled successfully.
+2024-04-24 10:27:42,960 - DEBUG - Switching interface to ActiveX
+2024-04-24 10:27:42,973 - DEBUG - Finished setting up ActiveX API
+2024-04-24 10:27:42,977 - DEBUG - Software override enabled: 1
+2024-04-24 10:27:42,977 - DEBUG - Updates enabled successfully.
+2024-04-24 10:27:44,544 - DEBUG - Button clicked: Global
+2024-04-24 10:27:44,551 - DEBUG - Software override value set to 0b100000
+2024-04-24 10:27:44,551 - DEBUG - Setting update mode to Global
+2024-04-24 10:27:44,989 - DEBUG - Button clicked: Single
+2024-04-24 10:27:44,997 - DEBUG - Software override value set to 0b0
+2024-04-24 10:27:44,997 - DEBUG - Setting update mode to Single
+2024-04-24 10:27:46,796 - DEBUG - Button clicked: Dual
+2024-04-24 10:27:46,803 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:27:46,803 - DEBUG - Setting update mode to Dual
+2024-04-24 10:27:47,267 - DEBUG - Button clicked: Quad
+2024-04-24 10:27:47,274 - DEBUG - Software override value set to 0b110000
+2024-04-24 10:27:47,274 - DEBUG - Setting update mode to Quad
+2024-04-24 10:27:48,859 - DEBUG - Button clicked: Quad
+2024-04-24 10:27:49,888 - DEBUG - Button clicked: Dual
+2024-04-24 10:27:49,898 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:27:49,898 - DEBUG - Setting update mode to Dual
+2024-04-24 10:27:51,299 - DEBUG - Button clicked: Quad
+2024-04-24 10:27:51,307 - DEBUG - Software override value set to 0b110000
+2024-04-24 10:27:51,307 - DEBUG - Setting update mode to Quad
+2024-04-24 10:27:55,603 - DEBUG - Image uploaded from C:/Users/Sid/.venv/updatemodes/DMDupdatemodes/Single.jpg
+2024-04-24 10:27:55,603 - DEBUG - Image loaded into DMD successfully.
+2024-04-24 10:27:57,223 - DEBUG - Button clicked: Quad
+2024-04-24 10:27:57,916 - DEBUG - Button clicked: Dual
+2024-04-24 10:27:57,925 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:27:57,925 - DEBUG - Setting update mode to Dual
+2024-04-24 10:27:58,920 - DEBUG - Button clicked: Single
+2024-04-24 10:27:58,929 - DEBUG - Software override value set to 0b0
+2024-04-24 10:27:58,929 - DEBUG - Setting update mode to Single
+2024-04-24 10:27:59,392 - DEBUG - Button clicked: Global
+2024-04-24 10:27:59,398 - DEBUG - Software override value set to 0b100000
+2024-04-24 10:27:59,399 - DEBUG - Setting update mode to Global
+2024-04-24 10:28:00,944 - DEBUG - Switching interface to DLL
+2024-04-24 10:28:00,949 - DEBUG - Attempting to setup DLL API for use
+2024-04-24 10:28:00,950 - DEBUG - Finished setting up DLL API
+2024-04-24 10:28:00,952 - DEBUG - Software override enabled: 1
+2024-04-24 10:28:00,952 - DEBUG - Updates enabled successfully.
+2024-04-24 10:28:01,935 - DEBUG - Button clicked: Global
+2024-04-24 10:28:02,542 - DEBUG - Button clicked: Single
+2024-04-24 10:28:02,549 - DEBUG - Software override value set to 0b0
+2024-04-24 10:28:02,549 - DEBUG - Setting update mode to Single
+2024-04-24 10:28:03,538 - DEBUG - Button clicked: Dual
+2024-04-24 10:28:03,546 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:28:03,546 - DEBUG - Setting update mode to Dual
+2024-04-24 10:28:03,916 - DEBUG - Button clicked: Quad
+2024-04-24 10:28:03,925 - DEBUG - Software override value set to 0b110000
+2024-04-24 10:28:03,925 - DEBUG - Setting update mode to Quad
+2024-04-24 10:28:04,246 - DEBUG - Button clicked: Dual
+2024-04-24 10:28:04,254 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:28:04,254 - DEBUG - Setting update mode to Dual
+2024-04-24 10:28:04,544 - DEBUG - Button clicked: Single
+2024-04-24 10:28:04,552 - DEBUG - Software override value set to 0b0
+2024-04-24 10:28:04,552 - DEBUG - Setting update mode to Single
+2024-04-24 10:28:04,848 - DEBUG - Button clicked: Global
+2024-04-24 10:28:04,854 - DEBUG - Software override value set to 0b100000
+2024-04-24 10:28:04,854 - DEBUG - Setting update mode to Global
+2024-04-24 10:28:08,086 - DEBUG - Loaded image data from file to DMD device buffer
+2024-04-24 10:28:08,086 - DEBUG - Image loaded into DMD successfully.
+2024-04-24 10:28:10,948 - DEBUG - Button clicked: Quad
+2024-04-24 10:28:10,956 - DEBUG - Software override value set to 0b110000
+2024-04-24 10:28:10,956 - DEBUG - Setting update mode to Quad
+2024-04-24 10:28:11,669 - DEBUG - Button clicked: Dual
+2024-04-24 10:28:11,675 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:28:11,675 - DEBUG - Setting update mode to Dual
+2024-04-24 10:28:12,095 - DEBUG - Button clicked: Single
+2024-04-24 10:28:12,104 - DEBUG - Software override value set to 0b0
+2024-04-24 10:28:12,104 - DEBUG - Setting update mode to Single
+2024-04-24 10:28:12,666 - DEBUG - Button clicked: Global
+2024-04-24 10:28:12,675 - DEBUG - Software override value set to 0b100000
+2024-04-24 10:28:12,675 - DEBUG - Setting update mode to Global
+2024-04-24 10:28:13,102 - DEBUG - Button clicked: Single
+2024-04-24 10:28:13,112 - DEBUG - Software override value set to 0b0
+2024-04-24 10:28:13,112 - DEBUG - Setting update mode to Single
+2024-04-24 10:28:14,098 - DEBUG - Button clicked: Dual
+2024-04-24 10:28:14,106 - DEBUG - Software override value set to 0b10000
+2024-04-24 10:28:14,107 - DEBUG - Setting update mode to Dual
+2024-04-24 10:28:14,973 - DEBUG - Switching interface to ActiveX
+2024-04-24 10:28:14,990 - DEBUG - Finished setting up ActiveX API
+2024-04-24 10:28:14,995 - DEBUG - Software override enabled: 1
+2024-04-24 10:28:14,995 - DEBUG - Updates enabled successfully.
